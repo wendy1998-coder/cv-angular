@@ -1,0 +1,132 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+body {
+  background-image: url("../assets/images/dna-storage-big.png");
+  background-color: #000;
+  margin: auto;
+  background-repeat: repeat-y;
+  overflow-y: visible;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  background-size: 8%;
+  font-size: 14pt;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+.red {
+  color: red;
+}
+
+.container {
+  width: 80%;
+  padding: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*projects*/
+.project {
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+.honours_logo {
+  float: right;
+}
+
+/*index*/
+#index_pics img {
+  display: block;
+  max-width: 95%;
+  max-height: 48%;
+}
+
+/*tables*/
+.text-black {
+  color: black;
+}
+table {
+  text-align: left;
+}
+
+.skills-thumbnail {
+  height: 25%;
+}
+
+/*timelines*/
+.timeline {
+  table-layout: fixed;
+}
+
+/*backgrounds*/
+.bg-danger {
+  background-image: url("../assets/images/bg-danger.png");
+}
+
+.bg-warning {
+  background-image: url("../assets/images/bg-warning.png");
+}
+
+.bg-info {
+  background-image: url("../assets/images/bg-info.png");
+}
+
+.bg-primary {
+  background-image: url("../assets/images/bg-primary.png");
+}
+
+.bg-success {
+  background-image: url("../assets/images/bg-success.png");
+}
+
+#schooling {
+  width: calc(8*200px + 25px);
+}
+
+#jobs {
+  width: calc(15*120px + 55px);
+}
+
+.timeline td,
+.timeline th {
+  overflow-x: auto;
+  background-repeat: repeat-x;
+}
+
+/*panels*/
+.panel {
+  background-color: #000;
+}
+
+.tab-content {
+  padding-top: 20px;
+}
+
+/*navs*/
+.nav-tabs > li > a.active,
+.nav > li > a:hover {
+  background-color: #000;
+  color: #f9f9f9;
+  border: 1px #fff solid;
+}
+
+/*smartphones*/
+@media (max-width: 500px) {
+  /*background*/
+  body {
+    background-image: none;
+  }
+
+  /*container*/
+  .container {
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

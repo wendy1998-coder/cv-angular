@@ -24,9 +24,22 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/css/bootstrap/bootstrap.css",
+              "src/css/bootstrap/bootstrap-grid.css",
+              "src/css/bootstrap/bootstrap-reboot.css",
+              "src/css/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/scripts/lib/jquery/jquery.js",
+              "src/assets/scripts/lib/popper.min.js",
+              "src/assets/scripts/lib/bootstrap/bootstrap.js",
+              "src/assets/scripts/lib/bootstrap/bootstrap.bundle.js",
+              "src/assets/scripts/javascript/adjust_image_sizes.js",
+              "src/assets/scripts/javascript/callresponsivetabs.js",
+              "src/assets/scripts/javascript/make_mobile_menu_visible.js",
+              "src/assets/scripts/javascript/position_footer.js",
+              "src/assets/scripts/javascript/responsive-tabs.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -88,9 +101,22 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/css/bootstrap/bootstrap.css",
+              "src/css/bootstrap/bootstrap-grid.css",
+              "src/css/bootstrap/bootstrap-reboot.css",
+              "src/css/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/scripts/lib/jquery/jquery.js",
+              "src/assets/scripts/lib/popper.min.js",
+              "src/assets/scripts/lib/bootstrap/bootstrap.js",
+              "src/assets/scripts/lib/bootstrap/bootstrap.bundle.js",
+              "src/assets/scripts/javascript/adjust_image_sizes.js",
+              "src/assets/scripts/javascript/callresponsivetabs.js",
+              "src/assets/scripts/javascript/make_mobile_menu_visible.js",
+              "src/assets/scripts/javascript/position_footer.js",
+              "src/assets/scripts/javascript/responsive-tabs.js"
+            ]
           }
         },
         "lint": {
