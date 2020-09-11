@@ -1,0 +1,13 @@
+#index_pics > img {
+  display: block;
+  max-width: 95%;
+}
+
+#professional {
+  max-height: 66%;
+  margin-bottom: 1%;
+}
+
+#colloquium {
+  max-height: 33%;
+}

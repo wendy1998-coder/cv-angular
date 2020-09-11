@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { projects } from '../../../../../angular.json';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-footer',
@@ -7,11 +6,9 @@ import { projects } from '../../../../../angular.json';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
-  public scripts: string[];
   constructor() {}
 
   ngOnInit(): void {
-    this.scripts = Array.from(projects['angular-website'].architect.build.options.scripts.values());
+    $.getScript('assets/scripts/javascript/position_footer.js');
   }
-
 }

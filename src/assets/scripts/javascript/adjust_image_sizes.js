@@ -1,4 +1,4 @@
-window.onload = function() {
+$(window).on("load", function() {
   const pics_div = document.getElementById("index_pics");
   const footer = document.getElementsByClassName("footer");
   const text = document.getElementsByClassName("text");
@@ -6,8 +6,7 @@ window.onload = function() {
   const text_height = function() {
     let totalHeight = 0;
 
-    let i;
-    for(i = 0; i < 3; i++) {
+    for(let i = 0; i < 3; i++) {
       totalHeight += $(text[i]).outerHeight();
     }
 
@@ -24,11 +23,11 @@ window.onload = function() {
       size_pictures(window.innerHeight - footer.outerHeight - 10)
     }
 
-  window.onresize = function() {
+  $(window).on("resize", function() {
     if(window.innerWidth <= 1600) {
       size_pictures(text_height())
     } else {
       size_pictures(window.innerHeight - footer.outerHeight - 10)
     }
-  }
-};
+  })
+});
