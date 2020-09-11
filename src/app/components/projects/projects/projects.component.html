@@ -1,0 +1,546 @@
+<div class="container">
+  <h2 class="text-center">Projects</h2>
+  <p>
+    On this page you can read about projects I have done during my higher education.
+  </p>
+  <p>  <br/></p>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+    </div>
+    <div class="panel-body">
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs responsive">
+        <li><a href="#bachelor" data-toggle="tab" class="active">  Bachelor of Science  </a> </li>
+        <li><a href="#honours" data-toggle="tab">  Honorary program  </a> </li>
+        <li><a href="#professional" data-toggle="tab"> Professional Education </a> </li>
+      </ul>
+      <div class="tab-content responsive">
+        <div class="tab-pane fade in active" id="bachelor">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+            </div>
+            <div class="panel-body">
+              <ng-container *ngFor="let project of projectsArray">
+                <app-project-item *ngIf="project.category === 'bach'" [project]="project"></app-project-item>
+              </ng-container>
+              <div class="project">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <h3>Theme 5 - Diagnostic Genome Analysis</h3>
+                    <p><br/>  </p>
+                  </div>
+                </div>
+                <ul class="nav nav-tabs responsive">
+                  <li><a href="#description_theme5" class="active" data-toggle="tab"> Description </a>
+                  </li>
+                  <li><a href="#links_theme5" data-toggle="tab"> Links and proof </a>
+                  </li>
+                  <li><a href="#skills_theme5" data-toggle="tab"> Skills practiced </a>
+                  </li>
+                </ul>
+                <div class="tab-content responsive">
+                  <div class="tab-pane fade in active" id="description_theme5">
+                    <p>
+                      In this theme, we (a pair again) used Galaxy to create a workflow to identify variants in a genome.
+                      We looked into the fastq format, read mapping with different mappers and creating pileup data.
+                      This part was done by a script we had to write ourselves to practice our python skills, even though there are tools for this.
+                      After that we did a variant scan and looked at the found variants with ANNOVAR.
+                      The pileup script was eventually added to Galaxy so a pipeline could be created.
+                      The variants were added to a database and we used SQL to query this.
+                      We also had to practice scientific writing again.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="links_theme5">
+                    <p>
+                      For this theme it is a bit harder to show the work I have done, because a lot was done in Galaxy and I cannot show you that,
+                      but I can show you the scripts we wrote. The scripts we wrote can be found on
+                      <a href="https://bitbucket.org/wendy1998/thema-05-diagnosticgenomeanalysis/src/master/" target="_blank">this</a> bitbucket repository,
+                      but that also contains the instructions we got for the theme, so it's not only my course work.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="skills_theme5">
+                    <p>From this project I learned the following skills or practiced them further:</p>
+                    <ul>
+                      <li>Python programming</li>
+                      <li>Working together</li>
+                      <li>Working with Galaxy</li>
+                      <li>Variance analysis</li>
+                      <li>Genome quality control</li>
+                      <li>Mapping</li>
+                      <li>Adding tools to galaxy</li>
+                      <li>Database querying with SQL</li>
+                      <li>Scientific writing</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="project">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <h3>Theme 6 - Metagenomic analysis</h3>
+                    <p><br/>   </p>
+                  </div>
+                </div>
+                <ul class="nav nav-tabs responsive">
+                  <li><a href="#description_theme6" class="active" data-toggle="tab"> Description </a>
+                  </li>
+                  <li><a href="#links_theme6" data-toggle="tab"> Links and proof </a>
+                  </li>
+                  <li><a href="#skills_theme6" data-toggle="tab"> Skills practiced </a>
+                  </li>
+                </ul>
+                <div class="tab-content responsive">
+                  <div class="tab-pane fade in active" id="description_theme6">
+                    <p>
+                      In theme 6, a group of 4 persons had to do metagenomic analysis using Galaxy.
+                      We got fastq data which was checked for quality,
+                      then the data went through an ORF finder program that we wrote ourselves in python and that was then added as a tool to the Galaxy environment.
+                      The main focus of this project was for us to learn to understand the many different ways in which data can be processed and how many tools there are for this.
+                      The new things we learned was mainly de-novo genome assembly and the amount of mapping programs there is.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="links_theme6">
+                    <p>
+                      Because almost all of this was done in galaxy, the bitbucket repository for this theme is almost empty, but you can look at it
+                      <a href="https://bitbucket.org/wendy1998/diagnostic-metagenomic-analysis/src/master/" target="_blank">here</a>.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="skills_theme6">
+                    <p>From this project I learned the following skills or practiced them further:</p>
+                    <ul>
+                      <li>Working in a big group</li>
+                      <li>Python programming</li>
+                      <li>Working with Galaxy</li>
+                      <li>De-novo genome assembly</li>
+                      <li>Finding the best tool for projects</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="project">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <h3>Theme 7 - Gene expression analysis</h3>
+                    <p><br/>   </p>
+                  </div>
+                </div>
+                <ul class="nav nav-tabs responsive">
+                  <li><a href="#description_theme7" class="active" data-toggle="tab"> Description </a>
+                  </li>
+                  <li><a href="#links_theme7" data-toggle="tab"> Links and proof </a>
+                  </li>
+                  <li><a href="#skills_theme7" data-toggle="tab"> Skills practiced </a>
+                  </li>
+                </ul>
+                <div class="tab-content responsive">
+                  <div class="tab-pane fade in active" id="description_theme7">
+                    <p>
+                      Theme 7 was the first theme where we used Rmarkdown in a theme project.
+                      I used R code to identify differentially expressed genes in a set of NGS data from mice with maternal asthma.
+                      These DEG's were then used to see if they are from specific pathways and what their effects were.
+                      I had to redo the research in an article I found through the NCBI database, but I did have to come up with a project proposal,
+                      which I will link to in the links department. I had to give a short presentation about the proposal at the beginning of the theme.
+                      At the end of this (individual) theme, we had to give a poster flash, like always in the third term of the year.
+                      If you were chosen by the teacher, you had to do your flash again in the annual poster presentation session for the entire school.
+                      I also had to write (part of) a report again.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="links_theme7">
+                    <p>
+                      For some reason, I don't have a bitbucket repository for this theme (anymore) and on my own computer, the script I wrote is no where to be found.
+                      Luckily, I do still have the pdf from the Rmarkdown file with the scripts shown, but you won't be able to run it.
+                      The project proposal can be found <a href="informatica/thema7/Project%20Proposal.pdf" target="_blank">here</a>,
+                      the original study that I did part of can be found <a href="informatica/thema7/Ciernia_et_al-2018-Glia.pdf" target="_blank">here</a>,
+                      the logbook/scripts can be seen in <a href="informatica/thema7/logboek.pdf" target="_blank">this</a> pdf file (partially dutch) and
+                      the poster used for the final presentation can be found <a href="informatica/thema7/poster.pdf" target="_blank">here</a> (dutch).
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="skills_theme7">
+                    <p>From this project I learned the following skills or practiced them further:</p>
+                    <ul>
+                      <li>Creating a report with Rmarkdown</li>
+                      <li>Gene expresion analysis</li>
+                      <li>Programming in R</li>
+                      <li>Working with several statistics</li>
+                      <li>Visualizing content in Rmarkdown</li>
+                      <li>Carefully following instructions</li>
+                      <li>Holding a poster flash of at most 1 minute</li>
+                      <li>Working with big data (10ns of thousands of genes)</li>
+                      <li>Scientific writing</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="project">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <h3>Theme 8 - Modelling systems biology</h3>
+                    <p><br/>  </p>
+                  </div>
+                </div>
+                <ul class="nav nav-tabs responsive">
+                  <li><a href="#description_theme8" class="active" data-toggle="tab"> Description </a>
+                  </li>
+                  <li><a href="#links_theme8" data-toggle="tab"> Links and proof </a>
+                  </li>
+                  <li><a href="#skills_theme8" data-toggle="tab"> Skills practiced </a>
+                  </li>
+                </ul>
+                <div class="tab-content responsive">
+                  <div class="tab-pane fade in active" id="description_theme8">
+                    <p>
+                      During theme 8 we got to practice with systems biology and making mathematical models in R.
+                      In groups of 2, we first had to do some practice assignments and then in the last 3 weeks of the term,
+                      we had to redo the research of an article of our choosing. Me and my group partner modelled the circadian clock process in our body.
+                      The mathematical equations we needed were already present in the article (as they should be), so the only thing we needed to do was calculate them through.
+                      The main focus of this theme was more writing a report than the actual programming.
+                      We learned to write a lot of formulas in Rmarkdown and how to make readable tables with lots of values.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="links_theme8">
+                    <p>
+                      This is the link to the bitbucket repository containing all the project work: <a href="https://bitbucket.org/wendy1998/thema08-systemsbiology/src/master/" target="_blank">Theme 8</a>.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="skills_theme8">
+                    <p>From this project I learned the following skills or practiced them further:</p>
+                    <ul>
+                      <li>Calculating through mathematical models in R</li>
+                      <li>Creating formulas in Rmarkdown</li>
+                      <li>Creating large tables in Rmarkdown</li>
+                      <li>Scientific writing</li>
+                      <li>R programming</li>
+                      <li>Working together</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="project">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <h3>Theme 9 - Introduction datamining</h3>
+                    <p><br/>  </p>
+                  </div>
+                </div>
+                <ul class="nav nav-tabs responsive">
+                  <li><a href="#description_theme9" class="active" data-toggle="tab"> Description </a>
+                  </li>
+                  <li><a href="#links_theme9" data-toggle="tab"> Links and proof </a>
+                  </li>
+                  <li><a href="#skills_theme9" data-toggle="tab"> Skills practiced </a>
+                  </li>
+                </ul>
+                <div class="tab-content responsive">
+                  <div class="tab-pane fade in active" id="description_theme9">
+                    <p>
+                      This project revolved around different datamining algorithms in Weka.
+                      I got data where you had to make a prediction about whether horses got/survived colic disease.
+                      We first had to check the data for quality using R.
+                      Then I chose to optimize my data for two different schemes and after that I optimized the schemes.
+                      When the scheme optimization was done, we had to make a Java wrapper for this scheme with which new data could be predicted.
+                      I also had to make a report of this with Rmarkdown. This was an individual project for a change.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="links_theme9">
+                    <p>
+                      Bitbucket for Java wrapper: <a href="https://bitbucket.org/wendy1998/thema-9-horce-colic-classifier/src/second/" target="_blank">Java wrapper repo</a><br/>
+                      Bitbucket for datamining part: <a href="https://bitbucket.org/wendy1998/thema-09-datamining/src/master/" target="_blank">Datamining repo</a>.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="skills_theme9">
+                    <p>From this project I learned the following skills or practiced them further:</p>
+                    <ul>
+                      <li>Datamining with Weka</li>
+                      <li>Scientific writing</li>
+                      <li>Java programming</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="project">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <h3>Theme 10 - Webbased information systems</h3>
+                    <p><br/> </p>
+                  </div>
+                </div>
+                <ul class="nav nav-tabs responsive">
+                  <li><a href="#description_theme10" class="active" data-toggle="tab"> Description </a>
+                  </li>
+                  <li><a href="#links_theme10" data-toggle="tab"> Links and proof </a>
+                  </li>
+                  <li><a href="#skills_theme10" data-toggle="tab"> Skills practiced </a>
+                  </li>
+                </ul>
+                <div class="tab-content responsive">
+                  <div class="tab-pane fade in active" id="description_theme10">
+                    <p>
+                      This project was about building a web-interface where diagnostics students can put in their data from scientific experiments
+                      and look at the data they put in during the project. Teachers can use the system to look at what the students put in and their way of thinking.
+                      This program can add scientific data to a database that is configured to host the data.
+                      It can be used to check on students in teams and what their thoughts are on specific experiments.
+                      It can also be used by students to learn to work with a laboratory management system.
+                      The database this program uses can store data for multiple years and projects,
+                      so it can also be used to get a view of what multiple years of students think of their experiments.
+                      In this project, I had to use JavaScript for the first time and I used AJAX calls to update the data on the webpage real-time without refreshing the webpage.
+                      Part of a scientific report had also be written again.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="links_theme10">
+                    <p>
+                      Bitbucket repository: <a href="https://bitbucket.org/wendy1998/thema-10-web-based-information-systems/src/master/" target="_blank">Theme 10 repo</a>.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="skills_theme10">
+                    <p>From this project I learned the following skills or practiced them further:</p>
+                    <ul>
+                      <li>Java programming</li>
+                      <li>JavaScript programming</li>
+                      <li>Database creation/querying with SQL</li>
+                      <li>Webapp creation with Java/ JSP's</li>
+                      <li>Working with DataTables/AJAX calls</li>
+                      <li>Working for a boss</li>
+                      <li>Creating proper plan of actions</li>
+                      <li>Presenting</li>
+                      <li>Scientific writing</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="project">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <h3>Theme 11 - Bioinformatics and functional genomics in Sweden</h3>
+                    <p><br/>  </p>
+                  </div>
+                </div>
+                <ul class="nav nav-tabs responsive">
+                  <li><a href="#description_theme11" class="active" data-toggle="tab"> Description </a>
+                  </li>
+                  <li><a href="#links_theme11" data-toggle="tab"> Links and proof </a>
+                  </li>
+                  <li><a href="#skills_theme11" data-toggle="tab"> Skills practiced </a>
+                  </li>
+                </ul>
+                <div class="tab-content responsive">
+                  <div class="tab-pane fade in active" id="description_theme11">
+                    <p>
+                      During the second half of the third schoolyear, you can choose to go abroad and study at a foreign University, so this is what I did.
+                      I followed a course there that was about bioinformatics techniques, but also about functional genomics, so laboratory techniques.
+                      In this course we had to do two practical assignments, of which one was about something I hadn't done before:
+                      finding the function of an unknown gene/protein in the cell using different databases and techniques.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="links_theme11">
+                    <p>
+                      Link to the google drive with all the documents:
+                      <a href="https://drive.google.com/drive/folders/18e-pAPQrbvi4W91bNUKvTk0lpr_FTReV?usp=sharing" target="_blank">Drive</a>.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="skills_theme11">
+                    <p>From this project I learned the following skills or practiced them further:</p>
+                    <ul>
+                      <li>Working together</li>
+                      <li>Scientific writing</li>
+                      <li>Literary research</li>
+                      <li>University thinking</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer"></div>
+          </div>
+        </div>
+        <div class="tab-pane fade in" id="honours">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+            </div>
+            <div class="panel-body">
+              <ng-container *ngFor="let project of projectsArray">
+                <app-project-item *ngIf="project.category === 'hon'" [project]="project"></app-project-item>
+              </ng-container>
+              <div class="project">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <h3>Masterclass Anthocyanins</h3>
+                    <p><br/> </p>
+                  </div>
+                  <div class="col-xs-6">
+                  </div>
+                </div>
+                <ul class="nav nav-tabs responsive">
+                  <li><a href="#description_masterclass" class="active" data-toggle="tab"> Description </a>
+                  </li>
+                  <li><a href="#links_masterclass" data-toggle="tab"> Links and proof </a>
+                  </li>
+                  <li><a href="#skills_masterclass" data-toggle="tab"> Skills practiced </a>
+                  </li>
+                </ul>
+                <div class="tab-content responsive">
+                  <div class="tab-pane fade in active" id="description_masterclass">
+                    <p>
+                      For my honours education, I did a literary research project with a student from a different study program (industrial chemistry).
+                      This was for a professor of the Hanze University and we had to report to him on our findings.
+                      This project was done over the span of half a school year (+/- 5 months) and in this time we noticed how hard it can be to come up with a project,
+                      talk about it to a superior and do the research, on top of a bachelor degree program.
+                      At first we struggled with how to best use our time and how to report, but along the way, we figured it out.
+                      At the beginning of the project, we had to come up with a professional plan of action,
+                      and for this we got a guest lecture from the Hanze project department on how to make a good plan of action.
+                      We learned to use gant charts and pert charts and how to make working packages and this has been a huge asset for me.
+                      At the end of the project, we had to give a presentation of half an hour before the entire school faculty and friends/family about what we did and what we found.
+                      As a way of keeping our boss up to date, I made a website with all our findings and the plan of action and time planning.
+                      I managed this project, so I had to check if everyone was doing their job and were on time with their results and then I had to communicate them with the boss.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="links_masterclass">
+                    <p>
+                      The website I was talking about can be found <a href="honours/masterclasses/masterclass_anthocyanen/website/index.html" target="_blank">here</a>,
+                      but sadly this is in dutch and so are all the results. I wanted to do it in english, but our boss wanted it in dutch.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="skills_masterclass">
+                    <p>From this project I learned the following skills or practiced them further:</p>
+                    <ul>
+                      <li>Working together in an interdisciplinary environment</li>
+                      <li>Doing a project for a boss</li>
+                      <li>Making a proper plan of action</li>
+                      <li>Making a gant chart</li>
+                      <li>Making a pert chart</li>
+                      <li>Doing literary research</li>
+                      <li>Scanning through lots of articles for relevance</li>
+                      <li>Creating huge summaries of results</li>
+                      <li>Project management</li>
+                      <li>Managing time over a long timespan</li>
+                      <li>Speaking in front of a big crowd</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="project">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <h3>RTK protein interaction, practical research</h3>
+                    <p><br/> </p>
+                  </div>
+                  <div class="col-xs-6">
+                  </div>
+                </div>
+                <ul class="nav nav-tabs responsive">
+                  <li><a href="#description_RTK" class="active" data-toggle="tab"> Description </a>
+                  </li>
+                  <li><a href="#links_RTK" data-toggle="tab"> Links and proof </a>
+                  </li>
+                  <li><a href="#skills_RTK" data-toggle="tab"> Skills practiced </a>
+                  </li>
+                </ul>
+                <div class="tab-content responsive">
+                  <div class="tab-pane fade in active" id="description_RTK">
+                    <p>
+                      One of the mandatory components of an honours program at my school is to do a practical research project for/with a professor.
+                      In my case, this was a project about the configuration of alpha-helices of trans-membrane proteins in membranes.
+                      From the professor (Tsjerk Wassenaar, creator of INSANE and DAFT software) I got a huge dataset of coordinates of atoms in
+                      two alpha helices on different time points for 20 different proteins.
+                      With them I got the interaction energy between those atoms and the membrane, each other and the environment (in this case water).
+                      My job was to find out if there was a connection between the interactions and the configurations of the helices, and if so,
+                      in which formation and which interaction.
+                      Sadly I only had 140 hours for the entire project, from coming up with it until handing in the report,
+                      so I wasn't able to get a clear answer to this question.
+                      In this project I first learned how to work with pandas, jupyter notebooks and numpy.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="links_RTK">
+                    <p>
+                      for information on this project, look at the <a href="honours/onderzoek/werk.html" target="_blank">project page</a>
+                      of the honours website (now still dutch, but will be translated in the coming weeks).
+                      For easy, I will link the important files on this page too, but only the code is english, the written text is in dutch.
+                    </p>
+                    <p>
+                      Notebook report: <a href="honours/onderzoek/RTK_alphahelix_interacties_in_membranen.ipynb">report notebook</a><br/>
+                      Notebook practical work: <a href="honours/onderzoek/RTK.ipynb">RTK</a><br/>
+                      PDF report: <a href="honours/onderzoek/verslag.pdf" target="_blank">report pdf</a>.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="skills_RTK">
+                    <p>From this project I learned the following skills or practiced them further:</p>
+                    <ul>
+                      <li>Working with numpy</li>
+                      <li>Working with pandas</li>
+                      <li>Working with jupyter notebooks</li>
+                      <li>Making 2d and 3d plots with Mathplotlib</li>
+                      <li>Create and analyze Numpy 3d histograms</li>
+                      <li>A little bit of bash programming</li>
+                      <li>Creating a report from a Jupyter Notebook</li>
+                      <li>Working for a superior</li>
+                      <li>Comping up with your own project</li>
+                      <li>Python programming</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="project">
+                <div class="row">
+                  <div class="col-xs-6">
+                    <h3>Colloquium phylogenetics</h3>
+                    <p><br/> </p>
+                  </div>
+                  <div class="col-xs-6">
+                  </div>
+                </div>
+                <ul class="nav nav-tabs responsive">
+                  <li><a href="#description_colloquium" class="active" data-toggle="tab"> Description </a>
+                  </li>
+                  <li><a href="#links_colloquium" data-toggle="tab"> Links and proof </a>
+                  </li>
+                  <li><a href="#skills_colloquium" data-toggle="tab"> Skills practiced </a>
+                  </li>
+                </ul>
+                <div class="tab-content responsive">
+                  <div class="tab-pane fade in active" id="description_colloquium">
+                    <p>
+                      A colloquium is a literary research project in which you need to find as much information as you can about a specific topic, chosen by yourself.
+                      Or you can answer a research question using literature.
+                      My colloquium was about phylogenetics and how the human species came to be.
+                      For an in-debt description of what I have done, look at the website that I link to in the other tab.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="links_colloquium">
+                    <p>
+                      Website about my colloquium: <a href="honours/colloquium/website/index.html">Website</a>.
+                    </p>
+                  </div>
+                  <div class="tab-pane fade in" id="skills_colloquium">
+                    <p>From this project I learned the following skills or practiced them further:</p>
+                    <ul>
+                      <li>Literary research</li>
+                      <li>Scientific writing</li>
+                      <li>Project management</li>
+                      <li>Presenting</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade in" id="professional">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+            </div>
+            <div class="panel-body">
+              <ng-container *ngFor="let project of projectsArray">
+                <app-project-item *ngIf="project.category === 'prof'" [project]="project"></app-project-item>
+              </ng-container>
+            </div>
+            <div class="panel-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="panel-footer">
+    </div>
+  </div>
+</div>

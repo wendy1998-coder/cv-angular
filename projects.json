@@ -1,0 +1,98 @@
+{
+  "projects": [
+    {
+      "category": "bach",
+      "title": "Theme 4 - Genes and inheritance",
+      "description": "The last term of my propadeautic year was all about inheritance and how this worked and the theme project reflected this.\n In pairs we had to make a website that had a page in it containing\n a form where you could put in a genotype for a mother and a genotype for a father and\n then a script that we had to write ourselves calculated all the possible genotypes and fenotypes for a possible baby.\n Then a CGI script would turn the results into a webpage and showcase this to the user.\n To calculate the possibilities and showcase the results we used python scripts with in the last case the cgi module.\n We also had to write two chapters of a scientific report for practice purposes.",
+      "id":"theme4",
+      "links":[
+        {
+          "before": "Sadly, the website that I was talking about is only available in dutch,\n but you can take a look at it",
+          "src": "http://cv.wendyvandermeulen.com/informatica/thema4/thema4_index.html",
+          "text": "here",
+          "after": " (opens in a new tab).\n"
+        },
+        {
+          "before": "For the whole project, including code, look at the bitbucket repository I created for the project:\n",
+          "src": "https://bitbucket.org/wendy1998/theme-4-genes-and-inheritance/src/master/",
+          "text": "Theme 4 Bitbucket",
+          "after": "I only created the repository when I wrote this website because it wasn't part of the assignments yet in the first year.\n This means it doesn't have proper commit messages.\n When you look at code, keep in mind that I wrote this in my first year and that my quality of coding has much improved since then."
+        }],
+      "skills":[
+        "Python programming",
+        "Working together",
+        "CGI skills with python",
+        "HTML/CSS",
+        "Scientific writing",
+        "Making a clear readme"
+      ]
+    },
+    {
+      "category": "prof",
+      "title": "YMDb - YoungCapital Movie Database",
+      "description": "As the final assignment of the Java traineeship of YounCapital,\nme and two others have created a web-application that is based on IMDB.\nOn this web-application, users can search for movies and their ratings and give ratings to them themselves.\nThey can also make lists of movies of what they want to see and what they own.\n                      Next to that, they can leave comments on the movies' pages.\nCritics can make a separate account and leave official reviews for movies.\n                      The front-end was created using the Angular framework and the back-end is a Spring Boot application which uses an MVC approach.",
+      "id":"ymdb",
+      "links":[
+        {
+          "before": "The web-application is online ",
+          "src": "http://ymdb.nl/",
+          "text": "here",
+          "after": " (opens in a new tab).\n"
+        },
+        {
+          "before": "",
+          "src": "https://github.com/YoungCapital-NEXT-4/ymdb-frontend",
+          "text": "Github frontend link",
+          "after": " (opens in a new tab).\n"
+        },
+        {
+          "before": "",
+          "src": "https://github.com/YoungCapital-NEXT-4/ymdb-backend",
+          "text": "Github backend link",
+          "after": "(opens in a new tab)."
+        }],
+      "skills":[
+        "Angular",
+        "Javascript / Jquery ",
+        "Programming in Java",
+        "Spring framework",
+        "Working in groups",
+        "Presentation skills",
+        "Agile way of working",
+        "Linux deployment using Jenkins",
+        "Using Git hooks"
+      ]
+    },
+    {
+      "category": "prof",
+      "title": "Gauss - Eulor 2.0",
+      "description": "As the final assignment of the C#.Net traineeship of YounCapital,\n me and two others have created a web-application with c#.\n                      On this web-application, teachers can make their own assignments and check what\n                      students have answered on them and students can try to answer all the available assignments.\n                      The frontend was made with ASP.NET razor pages, razor code, HTML, CSS and Javascript / Jquery.\n                      During the process of making this assignment,\n                      we used the Scrum way of development including but not limited to sprints and reflections.\n                      We got the chance to deploy the application on a linux server using Jenkins,\n                      but this was put offline after the traineeship finished.",
+      "id":"gauss",
+      "links":[
+        {
+          "before": "The web-application spoken about is based on ",
+          "src": "https://projecteuler.net/archives",
+          "text": "Project Euler",
+          "after": " (opens in a new tab).\n"
+        },
+        {
+          "before": "",
+          "src": "https://github.com/YoungCapital-NEXT-4/gauss",
+          "text": "Github link",
+          "after": " (opens in a new tab).\n"
+        }],
+      "skills":[
+        "Razor pages web-development",
+        "Programming in c#",
+        "Database connectivity / SQL",
+        "Javascript / Jquery ",
+        "Working in groups",
+        "Presentation skills",
+        "Agile way of working",
+        "Razor syntax",
+        "Linux deployment using Jenkins",
+        "Using Git hooks"
+      ]
+    }
+  ]
+}
