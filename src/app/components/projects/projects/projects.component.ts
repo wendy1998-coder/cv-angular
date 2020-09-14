@@ -8,7 +8,11 @@ import {Project} from '../../../models/project';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-  public projectsArray: Project[] = [];
+  public projectsDict: object = {
+    bach: [],
+    hon: [],
+    prof: []
+  };
 
   constructor() { }
 
@@ -16,9 +20,8 @@ export class ProjectsComponent implements OnInit {
     // tslint:disable-next-line:forin
     for (const key in projects) {
       const json = projects[key];
-      this.projectsArray.push(
-        new Project(json.title, json.description, json.links, json.skills, json.id, json.category)
-      );
+      const project = new Project(json.title, json.description, json.links, json.skills, json.id, json.category);
+      this.projectsDict[project.category].push(project);
     }
   }
 

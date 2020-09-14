@@ -22,16 +22,6 @@ a {
   color: red;
 }
 
-/*projects*/
-.project {
-  border: 1px solid #fff;
-  padding: 10px;
-}
-
-.honours_logo {
-  float: right;
-}
-
 /*tables*/
 .text-black {
   color: black;
@@ -102,7 +92,7 @@ table {
 }
 
 /*smartphones*/
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   /*background*/
   body {
     background-image: none;

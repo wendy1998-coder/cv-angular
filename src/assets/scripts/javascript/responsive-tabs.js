@@ -182,9 +182,9 @@ var fakewaffle = ( function ( $, fakewaffle ) {
 		} );
 	};
 
-	$( window ).resize( function () {
+	$( window ).on("resize", function () {
 		fakewaffle.checkResize();
-	} );
+	});
 
 	return fakewaffle;
 }( window.jQuery, fakewaffle || { } ) );

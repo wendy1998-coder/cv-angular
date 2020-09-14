@@ -3,7 +3,6 @@
   <p>
     On this page you can read about projects I have done during my higher education.
   </p>
-  <p>  <br/></p>
   <div class="panel panel-default">
     <div class="panel-heading">
     </div>
@@ -15,13 +14,13 @@
         <li><a href="#professional" data-toggle="tab"> Professional Education </a> </li>
       </ul>
       <div class="tab-content responsive">
-        <div class="tab-pane fade in active" id="bachelor">
+        <div class="tab-pane fade in active show" id="bachelor">
           <div class="panel panel-default">
             <div class="panel-heading">
             </div>
             <div class="panel-body">
-              <ng-container *ngFor="let project of projectsArray">
-                <app-project-item *ngIf="project.category === 'bach'" [project]="project"></app-project-item>
+              <ng-container *ngFor="let project of projectsDict['bach']">
+                <app-project-item [project]="project"></app-project-item>
               </ng-container>
               <div class="project">
                 <div class="row">
@@ -357,8 +356,8 @@
             <div class="panel-heading">
             </div>
             <div class="panel-body">
-              <ng-container *ngFor="let project of projectsArray">
-                <app-project-item *ngIf="project.category === 'hon'" [project]="project"></app-project-item>
+              <ng-container *ngFor="let project of projectsDict['hon']">
+                <app-project-item [project]="project"></app-project-item>
               </ng-container>
               <div class="project">
                 <div class="row">
@@ -530,8 +529,8 @@
             <div class="panel-heading">
             </div>
             <div class="panel-body">
-              <ng-container *ngFor="let project of projectsArray">
-                <app-project-item *ngIf="project.category === 'prof'" [project]="project"></app-project-item>
+              <ng-container *ngFor="let project of projectsDict['prof']">
+                <app-project-item [project]="project"></app-project-item>
               </ng-container>
             </div>
             <div class="panel-footer">
