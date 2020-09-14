@@ -3,11 +3,13 @@ import {CommonModule} from '@angular/common';
 import {RouterModule, Routes} from '@angular/router';
 import {HomeComponent} from './components/home/home.component';
 import {ProjectsComponent} from './components/projects/projects/projects.component';
+import {HobbiesComponent} from './components/hobbies/hobbies.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'home', component: HomeComponent},
-  {path: 'projects', component: ProjectsComponent}
+  {path: 'projects', component: ProjectsComponent},
+  {path: 'hobbies', component: HobbiesComponent}
 ];
 
 @NgModule({

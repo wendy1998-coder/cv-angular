@@ -7,7 +7,6 @@ import {Router} from '@angular/router';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  active: string;
   @ViewChild('menu') menu: ElementRef;
   @ViewChild('mobile') mobile: ElementRef;
 
@@ -23,6 +22,7 @@ export class HeaderComponent implements OnInit {
     if (url.length === 0) {
       url = 'home';
     }
+
     const menuElements = $(this.menu.nativeElement.children).children().toArray();
     const mobileElements = $(this.mobile.nativeElement.children).children().toArray();
 
@@ -33,8 +33,8 @@ export class HeaderComponent implements OnInit {
   }
 
   check_active(collection: any[], idToCheck: string): void {
-    // tslint:disable-next-line:only-arrow-functions
-    collection.forEach(function(value: HTMLElement) {
+    // tslint:disable-next-line:only-arrow-functions typedef
+    collection.forEach(function(value) {
       const $val = $(value);
       const a = $val.children('a').toArray()[0];
       if (a.id === idToCheck) {

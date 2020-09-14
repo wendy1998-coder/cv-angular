@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { PhotoDisplayComponent } from './components/home/photo-display/photo-display.component';
 import { ProjectsComponent } from './components/projects/projects/projects.component';
 import { ProjectItemComponent } from './components/projects/project-item/project-item.component';
+import { HobbiesComponent } from './components/hobbies/hobbies.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ProjectItemComponent } from './components/projects/project-item/project
     HeaderComponent,
     PhotoDisplayComponent,
     ProjectsComponent,
-    ProjectItemComponent
+    ProjectItemComponent,
+    HobbiesComponent
   ],
   imports: [
     BrowserModule,
