@@ -1,5 +1,5 @@
-import {Component, OnInit} from '@angular/core';
-import {ActivatedRoute, Router} from '@angular/router';
+import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -7,34 +7,45 @@ import {ActivatedRoute, Router} from '@angular/router';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  active: string;
+  @ViewChild('menu') menu: ElementRef;
+  @ViewChild('mobile') mobile: ElementRef;
 
-  query: string;
-
-  constructor(private router: Router, private route: ActivatedRoute) {
+  constructor(private router: Router) {
+    router.events.subscribe(() => this.set_active());
   }
 
   ngOnInit(): void {
-    this.route.queryParams.subscribe(queryParams => {
-      if (typeof queryParams.query !== 'undefined') {
-        this.query = queryParams.query;
-      }
-    });
   }
 
-  onQuery(event): void {
-    this.query = event.target.value;
+  set_active(): void {
+    let url = location.pathname.replace('/', '');
+    if (url.length === 0) {
+      url = 'home';
+    }
+    const menuElements = $(this.menu.nativeElement.children).children().toArray();
+    const mobileElements = $(this.mobile.nativeElement.children).children().toArray();
 
-    this.router.navigate(
-      ['search'],
-      {
-        queryParams: {
-          offset: 0,
-          count: 30,
-          query: event.target.value
-        },
-        queryParamsHandling: 'merge'
+    const menuId = url + '_c';
+    const mobileId = url + '_m';
+    this.check_active(menuElements, menuId);
+    this.check_active(mobileElements, mobileId);
+  }
+
+  check_active(collection: any[], idToCheck: string): void {
+    // tslint:disable-next-line:only-arrow-functions
+    collection.forEach(function(value: HTMLElement) {
+      const $val = $(value);
+      const a = $val.children('a').toArray()[0];
+      if (a.id === idToCheck) {
+        if (!$val.hasClass('active')) {
+          $val.addClass('active');
+        }
+      } else {
+        if ($val.hasClass('active')) {
+          $val.removeClass('active');
+        }
       }
-    );
-    return;
+    });
   }
 }

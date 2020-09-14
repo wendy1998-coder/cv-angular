@@ -3,10 +3,10 @@
   <div>
     <img class="img-fluid mobiel_menu" src="assets/images/menu_button.png" alt="Menu" />
   </div>
-  <div id="cssmenu" class="align-center">
+  <div id="cssmenu" class="align-center" #menu>
     <ul>
       <li>
-        <a href="#">Home</a>
+        <a href="#" id="home_c">Home</a>
       </li>
       <li>
         <a href="#">Hobbies and interests</a>
@@ -26,14 +26,14 @@
         <a href="#">Skills</a>
       </li>
       <li>
-        <a href="#" [routerLink]="'projects'">Projects</a>
+        <a href="#" [routerLink]="'projects'" id="projects_c">Projects</a>
       </li>
     </ul>
   </div>
-  <div id="mobiel_menu">
+  <div id="mobiel_menu" #mobile>
     <ul>
       <li>
-        <a href="#">Home</a>
+        <a href="#" id="home_m">Home</a>
       </li>
       <li>
         <a href="#">Hobbies and interests</a>
@@ -48,7 +48,7 @@
         <a href="#">Skills</a>
       </li>
       <li>
-        <a href="#" [routerLink]="'projects'">Projects</a>
+        <a href="#" [routerLink]="'projects'" id="projects_m">Projects</a>
       </li>
     </ul>
   </div>
