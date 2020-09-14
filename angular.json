@@ -37,7 +37,6 @@
               "src/assets/scripts/lib/bootstrap/bootstrap.bundle.js",
               "src/assets/scripts/javascript/adjust_image_sizes.js",
               "src/assets/scripts/javascript/callresponsivetabs.js",
-              "src/assets/scripts/javascript/make_mobile_menu_visible.js",
               "src/assets/scripts/javascript/responsive-tabs.js"
             ]
           },
@@ -114,7 +113,6 @@
               "src/assets/scripts/lib/bootstrap/bootstrap.bundle.js",
               "src/assets/scripts/javascript/adjust_image_sizes.js",
               "src/assets/scripts/javascript/callresponsivetabs.js",
-              "src/assets/scripts/javascript/make_mobile_menu_visible.js",
               "src/assets/scripts/javascript/responsive-tabs.js"
             ]
           }
