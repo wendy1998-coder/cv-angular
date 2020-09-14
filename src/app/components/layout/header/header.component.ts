@@ -11,7 +11,12 @@ export class HeaderComponent implements OnInit {
   @ViewChild('mobile') mobile: ElementRef;
 
   constructor(private router: Router) {
-    router.events.subscribe(() => this.set_active());
+    router.events.subscribe(() => {
+      this.set_active();
+      if (!$(this.mobile.nativeElement.children[0]).hasClass('hidden')) {
+          $(this.mobile.nativeElement.children[0]).addClass('hidden');
+      }
+    });
   }
 
   ngOnInit(): void {
@@ -47,5 +52,14 @@ export class HeaderComponent implements OnInit {
         }
       }
     });
+  }
+
+  make_menu_visible(): void {
+      const list = $($(this.mobile.nativeElement.children).toArray()[0]);
+      if (list.hasClass('hidden')) {
+        list.removeClass('hidden');
+      } else {
+        list.addClass('hidden');
+      }
   }
 }

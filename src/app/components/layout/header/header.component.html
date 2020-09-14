@@ -1,7 +1,7 @@
 <div class="container">
   <h1 class="header">CV Wendy van der Meulen</h1>
   <div>
-    <img class="img-fluid mobiel_menu" src="assets/images/menu_button.png" alt="Menu" />
+    <img class="img-fluid mobiel_menu" src="assets/images/menu_button.png" alt="Menu" (click)="make_menu_visible()" />
   </div>
   <div id="cssmenu" class="align-center" #menu>
     <ul>
@@ -15,7 +15,7 @@
         <a href="#">Schooling</a>
         <ul>
           <li>
-            <a href="#" target="_blank">Honours program Bachelor (opens in new tab)</a>
+            <a href="http://cv.wendyvandermeulen.com/honours/index.html" target="_blank">Honours program Bachelor (opens in new tab)</a>
           </li>
         </ul>
       </li>
@@ -31,7 +31,7 @@
     </ul>
   </div>
   <div id="mobiel_menu" #mobile>
-    <ul>
+    <ul class="hidden">
       <li>
         <a href="#" id="home_m">Home</a>
       </li>

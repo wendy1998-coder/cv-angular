@@ -194,6 +194,7 @@
 
 #mobiel_menu ul {
   background: #000;
+  z-index: 1;
   width: 100%;
 }
 
@@ -212,7 +213,7 @@
 }
 
 /*smartphones*/
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   /*menu*/
   #cssmenu {
     display: none;
@@ -223,7 +224,8 @@
     border-left: 1px solid #29ABE2;
   }
 
-  .mobiel_menu {
+  .mobiel_menu,
+  #mobiel_menu {
     display: block;
   }
 }
