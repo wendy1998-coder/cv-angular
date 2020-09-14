@@ -5,13 +5,15 @@ import {HomeComponent} from './components/home/home.component';
 import {ProjectsComponent} from './components/projects/projects/projects.component';
 import {HobbiesComponent} from './components/hobbies/hobbies.component';
 import {JobsComponent} from './components/jobs/jobs.component';
+import {SchoolingComponent} from './components/schooling/schooling.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'home', component: HomeComponent},
   {path: 'projects', component: ProjectsComponent},
   {path: 'hobbies', component: HobbiesComponent},
-  {path: 'jobs', component: JobsComponent}
+  {path: 'jobs', component: JobsComponent},
+  {path: 'school', component: SchoolingComponent}
 ];
 
 @NgModule({
