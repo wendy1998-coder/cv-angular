@@ -1,0 +1,282 @@
+{
+  "skills": [
+    {
+      "name": "Python 3 programming",
+      "level": ["advanced"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "C# programming",
+      "level": ["intermediate"],
+      "origin": "prof",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Entity framework",
+      "level": ["beginner"],
+      "origin": "prof",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "ASP.NET Razor pages web-development",
+      "level": ["intermediate"],
+      "origin": "prof",
+      "info": [
+        {
+          "before": "Personal project link with razor page development:",
+          "src": "https://wendy1998@bitbucket.org/wendy1998/libraryapic.git",
+          "text": "Library api bitbucket",
+          "after": " (opens in new tab)."
+        }
+      ],
+      "type": "hard"
+    },
+    {
+      "name": "R/Rmarkdown",
+      "level": ["intermediate"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Java programming",
+      "level": ["intermediate"],
+      "origin": "bach",
+      "type": "hard",
+      "info": [
+        {
+          "before": "Java course programming assignments repository:",
+          "src": "https://bitbucket.org/wendy1998/javaintroprogrammingassignments/src/master/",
+          "text": "assignments",
+          "after": " (opens in new tab)."
+        },
+        {
+          "before": "Java coursework in class repository: ",
+          "src": "https://bitbucket.org/wendy1998/introjava2018/src/master/",
+          "text": "coursework",
+          "after": " (opens in new tab)."
+        }
+      ]
+    },
+    {
+      "name": "Spring boot development",
+      "level": ["beginner"],
+      "origin": "prof",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "JavaScript/Jquery",
+      "level": ["intermediate"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Angular Development",
+      "level": ["beginner"],
+      "origin": "prof",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Working with DataTables/AJAX calls",
+      "level": ["intermediate"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "HTML",
+      "level": ["intermediate", "advanced"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "CSS3/Bootstrap",
+      "level": ["intermediate", "advanced"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Jupyter Notebooks for python",
+      "level": ["intermediate"],
+      "origin": "hon",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Pandas for python",
+      "level": ["intermediate"],
+      "origin": "hon",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Numpy for python",
+      "level": ["beginner"],
+      "origin": "hon",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Bash programming",
+      "level": ["beginner"],
+      "origin": "hon",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Datamining with Weka",
+      "level": ["intermediate"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Creating Gradle managed webapps with Java",
+      "level": ["intermediate"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Working with Galaxy",
+      "level": ["intermediate"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Adding my own scripts to Galaxy",
+      "level": ["beginner"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Genome Assembly (both de-novo as with a template)",
+      "level": ["intermediate"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Mapping genomes",
+      "level": ["intermediate"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Metagenomics analysis with Galaxy",
+      "level": ["intermediate"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Diagnostic genome analysis with Galaxy",
+      "level": ["intermediate"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Creating/querying databases with SQL",
+      "level": ["intermediate", "advanced"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Creating programs that can communicate with a database with Python, c# or Java",
+      "level": ["intermediate", "advanced"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Gene expression analysis in R",
+      "level": ["intermediate"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Calculating through mathematical models with R",
+      "level": ["intermediate"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Making 2d and 3d plots with mathplotlib for python",
+      "level": ["beginner"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Scientific writing",
+      "level": ["intermediate", "advanced"],
+      "origin": "bach",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Working together in an interdisciplinary environment",
+      "level": ["beginner", "intermediate"],
+      "origin": "hon",
+      "info": [],
+      "type": "soft"
+    },
+    {
+      "name": "Working for a boss/superior",
+      "level": ["intermediate"],
+      "origin": "hon",
+      "info": [],
+      "type": "soft"
+    },
+    {
+      "name": "Making a professional plan of action, including a gant-chart, pert-chart and working packages",
+      "level": ["intermediate", "advanced"],
+      "origin": "hon",
+      "info": [],
+      "type": "soft"
+    },
+    {
+      "name": "Scanning through lots of articles for relevant information",
+      "level": ["intermediate"],
+      "origin": "hon",
+      "info": [],
+      "type": "soft"
+    },
+    {"name": "Big project management",
+      "level": ["intermediate"],
+      "origin": "hon",
+      "info": [],
+      "type": "soft"
+    },
+    {
+      "name": "Speaking in front of big crowds",
+      "level": ["intermediate"],
+      "origin": "hon",
+      "info": [],
+      "type": "soft"
+    },
+    {
+      "name": "Scrum way of development",
+      "level": ["intermediate"],
+      "origin": "prof",
+      "info": [],
+      "type": "soft"
+    }
+  ]
+}

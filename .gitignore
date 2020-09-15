@@ -41,6 +41,7 @@ yarn-error.log
 testem.log
 /typings
 projectConverter.py
+skillsConverter.py
 
 # System Files
 .DS_Store

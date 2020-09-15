@@ -1,0 +1,62 @@
+<td>
+  <ng-container ngSwitch="{{skill.origin}}">
+    <ng-container *ngSwitchCase="'hon'">
+      <img class="img img-fluid"
+           src="assets/images/honours_logo.png"
+           alt="honours logo">
+      <p class="hidden">honours</p>
+    </ng-container>
+    <ng-container *ngSwitchCase="'bach'">
+      <img class="img img-fluid"
+           src="assets/images/Hanze-Logo.png"
+           alt="Hanze logo">
+      <p class="hidden">bachelor hanze</p>
+    </ng-container>
+    <ng-container *ngSwitchCase="'prof'">
+      <img class="img img-fluid"
+           src="assets/images/prof-logo.png"
+           alt="professional logo">
+      <p class="hidden">professional</p>
+    </ng-container>
+  </ng-container>
+</td>
+<td>
+  <p class="text-center" *ngIf="skill.type === 'hard'">
+    H
+    <span class="hidden">hard</span>
+  </p>
+  <p class="text-center" *ngIf="skill.type === 'soft'">
+    S
+    <span class="hidden">soft</span>
+  </p>
+</td>
+<td>
+  {{skill.name}}
+</td>
+<td class="bg-{{skill.level}}">
+  <p class="hidden" ngSwitch="{{skill.level}}">
+    <ng-container *ngSwitchCase="'middle1'">
+      beginner
+      intermediate
+    </ng-container>
+    <ng-container *ngSwitchCase="'middle2'">
+      intermediate
+      advanced
+    </ng-container>
+    <ng-container *ngIf="!skill.level.startsWith('middle')">
+      {{skill.level}}
+    </ng-container>
+  </p>
+</td>
+<td>
+  <p *ngIf="skill.info.length > 0">
+    <ng-container *ngFor="let link of skill.info">
+      {{link["before"]}}
+      <a href="{{link['src']}}" target="_blank">{{link["text"]}}</a>
+      {{link["after"]}}<br/>
+    </ng-container>
+  </p>
+  <p *ngIf="skill.info.length === 0">
+    NA
+  </p>
+</td>

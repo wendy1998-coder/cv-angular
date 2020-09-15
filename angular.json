@@ -35,6 +35,11 @@
               "src/assets/scripts/lib/popper.min.js",
               "src/assets/scripts/lib/bootstrap/bootstrap.js",
               "src/assets/scripts/lib/bootstrap/bootstrap.bundle.js",
+              "src/assets/scripts/lib/datatables/jquery.dataTables.min.js",
+              "src/assets/scripts/lib/datatables/dataTables.bootstrap4.min.js",
+              "src/assets/scripts/lib/datatables/dataTables.responsive.min.js",
+              "src/assets/scripts/lib/datatables/dataTables.rowGroup.min.js",
+              "src/assets/scripts/lib/datatables/dataTables.scroller.min.js",
               "src/assets/scripts/javascript/adjust_image_sizes.js",
               "src/assets/scripts/javascript/callresponsivetabs.js",
               "src/assets/scripts/javascript/responsive-tabs.js"
@@ -111,6 +116,11 @@
               "src/assets/scripts/lib/popper.min.js",
               "src/assets/scripts/lib/bootstrap/bootstrap.js",
               "src/assets/scripts/lib/bootstrap/bootstrap.bundle.js",
+              "src/assets/scripts/lib/datatables/jquery.dataTables.min.js",
+              "src/assets/scripts/lib/datatables/dataTables.bootstrap4.min.js",
+              "src/assets/scripts/lib/datatables/dataTables.responsive.min.js",
+              "src/assets/scripts/lib/datatables/dataTables.rowGroup.min.js",
+              "src/assets/scripts/lib/datatables/dataTables.scroller.min.js",
               "src/assets/scripts/javascript/adjust_image_sizes.js",
               "src/assets/scripts/javascript/callresponsivetabs.js",
               "src/assets/scripts/javascript/responsive-tabs.js"

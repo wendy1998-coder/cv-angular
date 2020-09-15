@@ -1,0 +1,40 @@
+<h2 class="text-center">Skills</h2>
+<p>Here a table with all the skills that I acquired through the years.
+  If I learned them through my honours program, the honours logo is displayed in the front of the table.</p>
+<table class="table table-bordered table-dark">
+  <thead>
+    <tr>
+      <th colspan="5">level legend</th>
+    </tr>
+    <tr>
+      <th>Beginner</th>
+      <th>Beginner / intermediate</th>
+      <th>Intermediate</th>
+      <th>Intermediate / advanced</th>
+      <th>Advanced</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="bg-beginner"></td>
+      <td class="bg-middle1"></td>
+      <td class="bg-intermediate"></td>
+      <td class="bg-middle2"></td>
+      <td class="bg-advanced"></td>
+    </tr>
+  </tbody>
+</table>
+<table class="table table-dark table-sm table-bordered m-0" id="datatable">
+  <thead>
+  <tr>
+    <th scope="col">Origin</th>
+    <th scope="col">Type</th>
+    <th scope="col" style="width: 40%">Skill</th>
+    <th scope="col">Level</th>
+    <th scope="col" style="width: 40%">Supportive information</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr skills-item *ngFor="let skill of skillsArray" [skill]="skill"></tr>
+  </tbody>
+</table>
