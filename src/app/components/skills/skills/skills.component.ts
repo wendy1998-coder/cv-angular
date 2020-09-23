@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { skills } from '../../../../../skills.json';
+import { skills } from '../../../../assets/skills.json';
 import { Skill } from "../../../models/skill";
 
 @Component({

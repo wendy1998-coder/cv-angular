@@ -15,8 +15,6 @@ import { JobsComponent } from './components/jobs/jobs.component';
 import { SchoolingComponent } from './components/schooling/schooling.component';
 import { SkillsComponent } from './components/skills/skills/skills.component';
 import { SkillsItemComponent } from './components/skills/skills-item/skills-item.component';
-import { LoginComponent } from './components/skills/skill-support/login/login/login.component';
-import { LinkedinLoginResponseComponent } from './components/skills/skill-support/login/linkedin-login-response/linkedin-login-response.component';
 
 @NgModule({
   declarations: [
@@ -31,9 +29,7 @@ import { LinkedinLoginResponseComponent } from './components/skills/skill-suppor
     JobsComponent,
     SchoolingComponent,
     SkillsComponent,
-    SkillsItemComponent,
-    LoginComponent,
-    LinkedinLoginResponseComponent
+    SkillsItemComponent
   ],
   imports: [
     BrowserModule,

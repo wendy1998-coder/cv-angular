@@ -6,8 +6,6 @@ import {HobbiesComponent} from './components/hobbies/hobbies.component';
 import {JobsComponent} from './components/jobs/jobs.component';
 import {SchoolingComponent} from './components/schooling/schooling.component';
 import {SkillsComponent} from './components/skills/skills/skills.component';
-import {LinkedinLoginResponseComponent} from "./components/skills/skill-support/login/linkedin-login-response/linkedin-login-response.component";
-import {LoginComponent} from "./components/skills/skill-support/login/login/login.component";
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -16,9 +14,7 @@ const routes: Routes = [
   {path: 'hobbies', component: HobbiesComponent},
   {path: 'jobs', component: JobsComponent},
   {path: 'school', component: SchoolingComponent},
-  {path: 'skills', component: SkillsComponent},
-  {path: 'linkedInLogin', component: LinkedinLoginResponseComponent},
-  {path: 'login', component: LoginComponent}
+  {path: 'skills', component: SkillsComponent}
 ];
 
 @NgModule({
