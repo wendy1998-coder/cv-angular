@@ -37,23 +37,23 @@ table {
 
 /*skills backgrounds*/
 .bg-advanced {
-  background-color: red;
+  background-color: blueviolet;
 }
 
 .bg-middle2 {
-  background-color: orange;
+  background-color: blue;
 }
 
 .bg-intermediate {
-  background-color: yellow;
+  background-color: yellowgreen;
 }
 
 .bg-middle1 {
-  background-color: #9bfc00;
+  background-color: orange;
 }
 
 .bg-beginner {
-  background-color: lawngreen;
+  background-color: red;
 }
 
 /*timelines*/

@@ -2,28 +2,28 @@
   "skills": [
     {
       "name": "Python 3 programming",
-      "level": ["advanced"],
+      "level": ["intermediate"],
       "origin": "bach",
       "info": [],
       "type": "hard"
     },
     {
       "name": "C# programming",
-      "level": ["intermediate"],
+      "level": ["beginner", "intermediate"],
       "origin": "prof",
       "info": [],
       "type": "hard"
     },
     {
       "name": "Entity framework",
-      "level": ["beginner"],
+      "level": ["beginner", "intermediate"],
       "origin": "prof",
       "info": [],
       "type": "hard"
     },
     {
       "name": "ASP.NET Razor pages web-development",
-      "level": ["intermediate"],
+      "level": ["beginner","intermediate"],
       "origin": "prof",
       "info": [
         {
@@ -44,10 +44,13 @@
     },
     {
       "name": "Java programming",
-      "level": ["intermediate"],
-      "origin": "bach",
+      "level": ["intermediate", "advanced"],
+      "origin": "prof",
       "type": "hard",
       "info": [
+        {
+          "before": "All the projects I did at The Factor.e (see jobs), were in java (8/11). "
+        },
         {
           "before": "Java course programming assignments repository:",
           "src": "https://bitbucket.org/wendy1998/javaintroprogrammingassignments/src/master/",
@@ -64,7 +67,7 @@
     },
     {
       "name": "Spring boot development",
-      "level": ["beginner"],
+      "level": ["beginner", "intermediate"],
       "origin": "prof",
       "info": [],
       "type": "hard"
@@ -79,6 +82,27 @@
     {
       "name": "Angular Development",
       "level": ["beginner"],
+      "origin": "prof",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Freemarker development",
+      "level": ["intermediate"],
+      "origin": "prof",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Bloomreach development",
+      "level": ["intermediate"],
+      "origin": "prof",
+      "info": [],
+      "type": "hard"
+    },
+    {
+      "name": "Jenkins automated integration",
+      "level": ["beginner","intermediate"],
       "origin": "prof",
       "info": [],
       "type": "hard"
@@ -99,21 +123,21 @@
     },
     {
       "name": "CSS3/Bootstrap",
-      "level": ["intermediate", "advanced"],
+      "level": ["intermediate"],
       "origin": "bach",
       "info": [],
       "type": "hard"
     },
     {
       "name": "Jupyter Notebooks for python",
-      "level": ["intermediate"],
+      "level": ["beginner","intermediate"],
       "origin": "hon",
       "info": [],
       "type": "hard"
     },
     {
       "name": "Pandas for python",
-      "level": ["intermediate"],
+      "level": ["beginner","intermediate"],
       "origin": "hon",
       "info": [],
       "type": "hard"
@@ -134,21 +158,21 @@
     },
     {
       "name": "Datamining with Weka",
-      "level": ["intermediate"],
+      "level": ["beginner"],
       "origin": "bach",
       "info": [],
       "type": "hard"
     },
     {
-      "name": "Creating Gradle managed webapps with Java",
-      "level": ["intermediate"],
+      "name": "Creating Gradle / maven managed webapps with Java",
+      "level": ["intermediate", "advanced"],
       "origin": "bach",
       "info": [],
       "type": "hard"
     },
     {
       "name": "Working with Galaxy",
-      "level": ["intermediate"],
+      "level": ["beginner"],
       "origin": "bach",
       "info": [],
       "type": "hard"
@@ -162,35 +186,35 @@
     },
     {
       "name": "Genome Assembly (both de-novo as with a template)",
-      "level": ["intermediate"],
+      "level": ["beginner"],
       "origin": "bach",
       "info": [],
       "type": "hard"
     },
     {
       "name": "Mapping genomes",
-      "level": ["intermediate"],
+      "level": ["beginner"],
       "origin": "bach",
       "info": [],
       "type": "hard"
     },
     {
       "name": "Metagenomics analysis with Galaxy",
-      "level": ["intermediate"],
+      "level": ["beginner"],
       "origin": "bach",
       "info": [],
       "type": "hard"
     },
     {
       "name": "Diagnostic genome analysis with Galaxy",
-      "level": ["intermediate"],
+      "level": ["beginner"],
       "origin": "bach",
       "info": [],
       "type": "hard"
     },
     {
-      "name": "Creating/querying databases with SQL",
-      "level": ["intermediate", "advanced"],
+      "name": "Creating/querying databases with MySQL",
+      "level": ["intermediate"],
       "origin": "bach",
       "info": [],
       "type": "hard"
@@ -199,7 +223,29 @@
       "name": "Creating programs that can communicate with a database with Python, c# or Java",
       "level": ["intermediate", "advanced"],
       "origin": "bach",
-      "info": [],
+      "info": [
+        {
+          "before": "While I do not have any professional (read: after my bachelor) experience with MySql, I do have several personal projects in which I use it and setup / connect to databases. Some of those projects have open bitbucket or github repos which I will link here.",
+          "src": "https://bitbucket.org/wendy1998/bookkeeper/src/master/",
+          "text": "Bitbucket bookkeeper",
+          "after": " (opens in new tab)."
+        },
+        {
+          "src": "https://github.com/wendy1998-coder/kaw_furniture_assembler",
+          "text": "kaw furniture assembler github",
+          "after": " (opens in new tab). This project is in development, it is not done yet!"
+        },
+        {
+          "src": "https://bitbucket.org/wendy1998/goodreadsbookapi/src/master/",
+          "text": "goodreads book API Java",
+          "after": " (opens in new tab). This is a very old project, which was later adapted into C# (linked below), so not up to date."
+        },
+        {
+          "src": "https://bitbucket.org/wendy1998/libraryapic/src/master/",
+          "text": "goodreads book API C#",
+          "after": " (opens in new tab). "
+        }
+      ],
       "type": "hard"
     },
     {
