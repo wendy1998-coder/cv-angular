@@ -1,54 +1,73 @@
 <div class="container">
   <h2 class="text-center">Projects</h2>
   <p>
-    On this page you can read about projects I have done during my higher education.
+    On this page you can read about projects I have done during and after my higher education.
   </p>
   <div class="panel panel-default">
     <div class="panel-heading">
     </div>
     <div class="panel-body">
-      <!-- Nav tabs -->
-      <ul class="nav nav-tabs responsive">
-        <li><a href="#bachelor" data-toggle="tab" class="active">  Bachelor of Science  </a> </li>
-        <li><a href="#honours" data-toggle="tab">  Honorary program  </a> </li>
-        <li><a href="#professional" data-toggle="tab"> Professional Education </a> </li>
-      </ul>
-      <div class="tab-content responsive">
-        <div class="tab-pane fade in active show" id="bachelor">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-            </div>
-            <div class="panel-body">
-              <ng-container *ngFor="let project of projectsDict['bach']">
-                <app-project-item [project]="project"></app-project-item>
-              </ng-container>
-            </div>
-            <div class="panel-footer"></div>
-          </div>
-        </div>
-        <div class="tab-pane fade in" id="honours">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-            </div>
-            <div class="panel-body">
-              <ng-container *ngFor="let project of projectsDict['hon']">
-                <app-project-item [project]="project"></app-project-item>
-              </ng-container>
-            </div>
-            <div class="panel-footer">
+      <div class="accordion accordion-flush" id="projectsAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingBachelor">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#bachelor" aria-expanded="true" aria-controls="bachelor">
+              Bachelor
+            </button>
+          </h2>
+          <div id="bachelor" class="accordion-collapse collapse show" aria-labelledby="headingBachelor" data-bs-parent="#projectsAccordion">
+            <div class="accordion-body">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                </div>
+                <div class="panel-body">
+                  <ng-container *ngFor="let project of projectsDict['bach']">
+                    <app-project-item [project]="project"></app-project-item>
+                  </ng-container>
+                </div>
+                <div class="panel-footer"></div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="tab-pane fade in" id="professional">
-          <div class="panel panel-default">
-            <div class="panel-heading">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingHonours">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#honours" aria-expanded="false" aria-controls="honours">
+              Honours projects
+            </button>
+          </h2>
+          <div id="honours" class="accordion-collapse collapse" aria-labelledby="headingHonours" data-bs-parent="#projectsAccordion">
+            <div class="accordion-body">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                </div>
+                <div class="panel-body">
+                  <ng-container *ngFor="let project of projectsDict['hon']">
+                    <app-project-item [project]="project"></app-project-item>
+                  </ng-container>
+                </div>
+                <div class="panel-footer"></div>
+              </div>
             </div>
-            <div class="panel-body">
-              <ng-container *ngFor="let project of projectsDict['prof']">
-                <app-project-item [project]="project"></app-project-item>
-              </ng-container>
-            </div>
-            <div class="panel-footer">
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingProfessional">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#professional" aria-expanded="false" aria-controls="professional">
+              Professional projects
+            </button>
+          </h2>
+          <div id="professional" class="accordion-collapse collapse" aria-labelledby="headingProfessional" data-bs-parent="#projectsAccordion">
+            <div class="accordion-body">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                </div>
+                <div class="panel-body">
+                  <ng-container *ngFor="let project of projectsDict['prof']">
+                    <app-project-item [project]="project"></app-project-item>
+                  </ng-container>
+                </div>
+                <div class="panel-footer"></div>
+              </div>
             </div>
           </div>
         </div>
