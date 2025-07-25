@@ -20,9 +20,9 @@
                 <div class="panel-heading">
                 </div>
                 <div class="panel-body">
-                  <ng-container *ngFor="let project of projectsDict['bach']">
+                  @for (project of projectsDict.bach; track project.id) {
                     <app-project-item [project]="project"></app-project-item>
-                  </ng-container>
+                  }
                 </div>
                 <div class="panel-footer"></div>
               </div>
@@ -41,9 +41,9 @@
                 <div class="panel-heading">
                 </div>
                 <div class="panel-body">
-                  <ng-container *ngFor="let project of projectsDict['hon']">
+                  @for (project of projectsDict.hon; track project.id) {
                     <app-project-item [project]="project"></app-project-item>
-                  </ng-container>
+                  }
                 </div>
                 <div class="panel-footer"></div>
               </div>
@@ -62,9 +62,9 @@
                 <div class="panel-heading">
                 </div>
                 <div class="panel-body">
-                  <ng-container *ngFor="let project of projectsDict['prof']">
+                  @for (project of projectsDict.prof; track project.id) {
                     <app-project-item [project]="project"></app-project-item>
-                  </ng-container>
+                  }
                 </div>
                 <div class="panel-footer"></div>
               </div>

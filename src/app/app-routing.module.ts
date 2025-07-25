@@ -8,13 +8,13 @@ import {SchoolingComponent} from './components/schooling/schooling.component';
 import {SkillsComponent} from './components/skills/skills/skills.component';
 
 const routes: Routes = [
-  {path: '', component: HomeComponent},
-  {path: 'home', component: HomeComponent},
-  {path: 'projects', component: ProjectsComponent},
-  {path: 'hobbies', component: HobbiesComponent},
-  {path: 'jobs', component: JobsComponent},
-  {path: 'school', component: SchoolingComponent},
-  {path: 'skills', component: SkillsComponent}
+  { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'projects', component: ProjectsComponent },
+  { path: 'hobbies', component: HobbiesComponent },
+  { path: 'jobs', component: JobsComponent },
+  { path: 'school', component: SchoolingComponent },
+  { path: 'skills', component: SkillsComponent }
 ];
 
 @NgModule({

@@ -4,16 +4,9 @@ import {Project} from '../../../models/project';
 @Component({
   selector: 'app-project-item',
   templateUrl: './project-item.component.html',
-  styleUrls: ['./project-item.component.css']
+  styleUrls: ['./project-item.component.css'],
+  standalone: false
 })
-export class ProjectItemComponent implements OnInit {
-
-  @Input() project: Project;
-
-  constructor() {
-  }
-
-  ngOnInit(): void {
-  }
-
+export class ProjectItemComponent {
+  @Input() project!: Project;
 }
