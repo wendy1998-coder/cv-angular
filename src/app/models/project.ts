@@ -1,12 +1,15 @@
+import { ProjectCategory } from "./project-category-enum";
+import { Link } from "./link";
+
 export class Project {
   title: string;
   description: string;
-  links: object[];
+  links: Link[];
   skills: string[];
   id: string;
-  category: string;
+  category: ProjectCategory;
 
-  constructor(title: string, description: string, links: object[], skills: string[], id: string, category: string) {
+  constructor(title: string, description: string, links: Link[], skills: string[], id: string, category: ProjectCategory) {
     this.title = title;
     this.description = description;
     this.links = links;

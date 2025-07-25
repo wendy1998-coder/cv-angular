@@ -4,11 +4,10 @@ import {Skill} from '../../../models/skill';
 @Component({
   selector: 'tr[skills-item]',
   templateUrl: './skills-item.component.html',
-  styleUrls: ['./skills-item.component.css']
+  styleUrls: ['./skills-item.component.css'],
+  standalone: false
 })
 export class SkillsItemComponent {
-  @Input() skill: Skill;
-
-  constructor() { }
+  @Input() skill!: Skill;
 
 }

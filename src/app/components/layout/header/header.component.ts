@@ -4,11 +4,12 @@ import {Router} from '@angular/router';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: ['./header.component.css'],
+  standalone: false
 })
 export class HeaderComponent implements OnInit {
-  @ViewChild('menu') menu: ElementRef;
-  @ViewChild('mobile') mobile: ElementRef;
+  @ViewChild('menu') menu!: ElementRef;
+  @ViewChild('mobile') mobile!: ElementRef;
 
   constructor(private router: Router) {
     router.events.subscribe(() => {
