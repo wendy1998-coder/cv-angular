@@ -1,12 +1,14 @@
+import {Link} from "./link";
+
 export class Skill {
   name: string;
   level: string;
   origin: string;
-  info: object[];
+  info: Link[];
   type: string;
 
 
-  constructor(name: string, level: string[], origin: string, info: object[], type: string) {
+  constructor(name: string, level: string[], origin: string, info: Link[], type: string) {
     this.name = name;
     this.level = this.computeLevel(level);
     this.origin = origin;
