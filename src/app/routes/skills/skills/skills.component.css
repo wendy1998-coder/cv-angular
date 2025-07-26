@@ -1,0 +1,20 @@
+/*skills backgrounds*/
+.bg-advanced {
+  background-color: blueviolet;
+}
+
+.bg-middle2 {
+  background-color: blue;
+}
+
+.bg-intermediate {
+  background-color: yellowgreen;
+}
+
+.bg-middle1 {
+  background-color: orange;
+}
+
+.bg-beginner {
+  background-color: red;
+}

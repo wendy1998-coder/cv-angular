@@ -1,0 +1,13 @@
+.footer {
+  background-color: #666699;
+  width: 100%;
+  padding-top: 10px;
+}
+
+#linkedin {
+  float: right;
+}
+
+#gmail {
+  float: left;
+}
