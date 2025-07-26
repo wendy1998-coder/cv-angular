@@ -23,7 +23,8 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/_redirects"
             ],
             "styles": ["src/css/styles.css"],
             "scripts": [
@@ -37,9 +38,7 @@
               "src/assets/scripts/lib/datatables/dataTables.responsive.min.js",
               "src/assets/scripts/lib/datatables/dataTables.rowGroup.min.js",
               "src/assets/scripts/lib/datatables/dataTables.scroller.min.js",
-              "src/assets/scripts/javascript/adjust_image_sizes.js",
-              "src/assets/scripts/javascript/callresponsivetabs.js",
-              "src/assets/scripts/javascript/responsive-tabs.js"
+              "src/assets/scripts/javascript/adjust_image_sizes.js"
             ]
           },
           "configurations": {
@@ -87,41 +86,8 @@
         },
         "extract-i18n": {
           "builder": "@angular/build:extract-i18n"
-        },
-        "test": {
-          "builder": "@angular/build:karma",
-          "options": {
-            "main": "src/test.ts",
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
-            "tsConfig": "tsconfig.spec.json",
-            "karmaConfig": "karma.conf.js",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": ["src/css/styles.css"],
-            "scripts": [
-              "src/assets/scripts/lib/jquery/jquery.js",
-              "src/assets/scripts/lib/popper.min.js",
-              "src/assets/scripts/lib/bootstrap/bootstrap.js",
-              "src/assets/scripts/lib/bootstrap/bootstrap.bundle.js",
-              "src/assets/scripts/lib/bootstrap/bootstrap.esm.js",
-              "src/assets/scripts/lib/datatables/jquery.dataTables.min.js",
-              "src/assets/scripts/lib/datatables/dataTables.bootstrap4.min.js",
-              "src/assets/scripts/lib/datatables/dataTables.responsive.min.js",
-              "src/assets/scripts/lib/datatables/dataTables.rowGroup.min.js",
-              "src/assets/scripts/lib/datatables/dataTables.scroller.min.js",
-              "src/assets/scripts/javascript/adjust_image_sizes.js",
-              "src/assets/scripts/javascript/callresponsivetabs.js",
-              "src/assets/scripts/javascript/responsive-tabs.js"
-            ]
-          }
         }
       }
-    },
-    "defaultProject": "angular-website"
+    }
   }
 }
