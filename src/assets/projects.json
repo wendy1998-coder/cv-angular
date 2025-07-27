@@ -7,12 +7,6 @@
       "id":"theme4",
       "links":[
         {
-          "before": "Sadly, the website that I was talking about is only available in dutch,\n but you can take a look at it",
-          "src": "http://cv.wendyvandermeulen.com/informatica/thema4/thema4_index.html",
-          "text": "here",
-          "after": " (opens in a new tab).\n"
-        },
-        {
           "before": "For the whole project, including code, look at the bitbucket repository I created for the project:\n",
           "src": "https://bitbucket.org/wendy1998/theme-4-genes-and-inheritance/src/master/",
           "text": "Theme 4 Bitbucket",
@@ -32,25 +26,6 @@
       "title": "YMDb - YoungCapital Movie Database",
       "description": "As the final assignment of the Java traineeship of YounCapital,\nme and two others have created a web-application that is based on IMDB.\nOn this web-application, users can search for movies and their ratings and give ratings to them themselves.\nThey can also make lists of movies of what they want to see and what they own.\n                      Next to that, they can leave comments on the movies' pages.\nCritics can make a separate account and leave official reviews for movies.\n                      The front-end was created using the Angular framework and the back-end is a Spring Boot application which uses an MVC approach.",
       "id":"ymdb",
-      "links":[
-        {
-          "before": "The web-application is online ",
-          "src": "http://ymdb.nl/",
-          "text": "here",
-          "after": " (opens in a new tab).\n"
-        },
-        {
-          "before": "",
-          "src": "https://github.com/YoungCapital-NEXT-4/ymdb-frontend",
-          "text": "Github frontend link",
-          "after": " (opens in a new tab).\n"
-        },
-        {
-          "before": "",
-          "src": "https://github.com/YoungCapital-NEXT-4/ymdb-backend",
-          "text": "Github backend link",
-          "after": "(opens in a new tab)."
-        }],
       "skills":[
         "Angular",
         "Javascript / Jquery ",
@@ -74,13 +49,8 @@
           "src": "https://projecteuler.net/archives",
           "text": "Project Euler",
           "after": " (opens in a new tab).\n"
-        },
-        {
-          "before": "",
-          "src": "https://github.com/YoungCapital-NEXT-4/gauss",
-          "text": "Github link",
-          "after": " (opens in a new tab).\n"
-        }],
+        }
+      ],
       "skills":[
         "Razor pages web-development",
         "Programming in c#",
@@ -99,14 +69,6 @@
       "title": "Masterclass Anthocyanins",
       "description": "For my honours education, I did a literary research project with a student from a different study program (industrial chemistry). This was for a professor of the Hanze University and we had to report to him on our findings. This project was done over the span of half a school year (+/- 5 months) and in this time we noticed how hard it can be to come up with a project, talk about it to a superior and do the research, on top of a bachelor degree program. At first we struggled with how to best use our time and how to report, but along the way, we figured it out. At the beginning of the project, we had to come up with a professional plan of action, and for this we got a guest lecture from the Hanze project department on how to make a good plan of action. We learned to use gant charts and pert charts and how to make working packages and this has been a huge asset for me. At the end of the project, we had to give a presentation of half an hour before the entire school faculty and friends/family about what we did and what we found. As a way of keeping our boss up to date, I made a website with all our findings and the plan of action and time planning. I managed this project, so I had to check if everyone was doing their job and were on time with their results and then I had to communicate them with the boss.",
       "id": "masterclass",
-      "links": [
-        {
-          "before": "The website I was talking about can be found ",
-          "src": "http://cv.wendyvandermeulen.com/honours/masterclasses/masterclass_anthocyanen/website/index.html",
-          "text": "here",
-          "after": ", but sadly this is in dutch and so are all the results. I wanted to do it in english, but our boss wanted it in dutch."
-        }
-      ],
       "skills":
       [
         "Working together in an interdisciplinary environment",
@@ -127,32 +89,6 @@
       "title": "RTK protein interaction, practical research",
       "description": "One of the mandatory components of an honours program at my school is to do a practical research project for/with a professor. In my case, this was a project about the configuration of alpha-helices of trans-membrane proteins in membranes. From the professor (Tsjerk Wassenaar, creator of INSANE and DAFT software) I got a huge dataset of coordinates of atoms in two alpha helices on different time points for 20 different proteins. With them I got the interaction energy between those atoms and the membrane, each other and the environment (in this case water). My job was to find out if there was a connection between the interactions and the configurations of the helices, and if so, in which formation and which interaction. Sadly I only had 140 hours for the entire project, from coming up with it until handing in the report, so I wasn't able to get a clear answer to this question. In this project I first learned how to work with pandas, jupyter notebooks and numpy.",
       "id": "RTK",
-      "links": [
-        {
-          "before": "for information on this project, look at the ",
-          "src": "http://cv.wendyvandermeulen.com/honours/onderzoek/werk.html",
-          "text": "project page",
-          "after": "of the honours website (now still dutch, but will be translated in the coming weeks). For easy, I will link the important files on this page too, but only the code is english, the written text is in dutch."
-        },
-        {
-          "before": "Notebook report: ",
-          "src": "http://cv.wendyvandermeulen.com/honours/onderzoek/RTK_alphahelix_interacties_in_membranen.ipynb",
-          "text": "report notebook",
-          "after": " (opens in new tab)."
-        },
-        {
-          "before": "Notebook practical work: ",
-          "src": "http://cv.wendyvandermeulen.com/honours/onderzoek/RTK.ipynb",
-          "text": "RTK",
-          "after": " (opens in new tab)."
-        },
-        {
-          "before": "PDF report: ",
-          "src": "http://cv.wendyvandermeulen.com/honours/onderzoek/verslag.pdf",
-          "text": "report pdf",
-          "after": " (opens in new tab)."
-        }
-      ],
       "skills": [
         "Working with numpy",
         "Working with pandas",
@@ -171,14 +107,6 @@
       "title": "Colloquium phylogenetics",
       "description": "A colloquium is a literary research project in which you need to find as much information as you can about a specific topic, chosen by yourself. Or you can answer a research question using literature. My colloquium was about phylogenetics and how the human species came to be. For an in-debt description of what I have done, look at the website that I link to in the other tab.",
       "id": "colloquium",
-      "links": [
-        {
-          "before": "Website about my colloquium: ",
-          "src": "http://cv.wendyvandermeulen.com/honours/colloquium/website/index.html",
-          "text": "Website",
-          "after": " (opens in new tab)."
-        }
-      ],
       "skills": [
         "Literary research",
         "Scientific writing",
@@ -237,14 +165,6 @@
       "title": "Theme 7 - Gene expression analysis",
       "description": "Theme 7 was the first theme where we used Rmarkdown in a theme project. I used R code to identify differentially expressed genes in a set of NGS data from mice with maternal asthma. These DEG's were then used to see if they are from specific pathways and what their effects were. I had to redo the research in an article I found through the NCBI database, but I did have to come up with a project proposal, which I will link to in the links department. I had to give a short presentation about the proposal at the beginning of the theme. At the end of this (individual) theme, we had to give a poster flash, like always in the third term of the year. If you were chosen by the teacher, you had to do your flash again in the annual poster presentation session for the entire school. I also had to write (part of) a report again.",
       "id": "theme7",
-      "links": [
-        {
-          "before": "For some reason, I don't have a bitbucket repository for this theme (anymore) and on my own computer, the script I wrote is no where to be found. Luckily, I do still have the pdf from the Rmarkdown file with the scripts shown, but you won't be able to run it. The project proposal can be found  the original study that I did part of can be found  the logbook/scripts can be seen in  the poster used for the final presentation can be found ",
-          "src": "http://cv.wendyvandermeulen.com/informatica/thema7/poster.pdf",
-          "text": "here",
-          "after": " (dutch, opens in new tab)."
-        }
-      ],
       "skills": [
         "Creating a report with Rmarkdown",
         "Gene expresion analysis",
@@ -333,14 +253,6 @@
       "title": "Theme 11 - Bioinformatics and functional genomics in Sweden",
       "description": "During the second half of the third schoolyear, you can choose to go abroad and study at a foreign University, so this is what I did. I followed a course there that was about bioinformatics techniques, but also about functional genomics, so laboratory techniques. In this course we had to do two practical assignments, of which one was about something I hadn't done before: finding the function of an unknown gene/protein in the cell using different databases and techniques.",
       "id": "theme11",
-      "links": [
-        {
-          "before": "Link to the google drive with all the documents:",
-          "src": "https://drive.google.com/drive/folders/18e-pAPQrbvi4W91bNUKvTk0lpr_FTReV?usp=sharing",
-          "text": "Drive",
-          "after": " (opens in new tab)."
-        }
-      ],
       "skills": [
         "Working together",
         "Scientific writing",
