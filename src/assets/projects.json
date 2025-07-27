@@ -1,16 +1,145 @@
 {
   "projects": [
     {
+      "category": "prof",
+      "title": "Maintenance Wise frontend applications",
+      "description": "As a fullstack developer at OCLC, I was part of the team that performed maintenance on the catalog website of the Wise library system. When I started at this company, they had just gone live with the angular version of this website and a lot of bugs came in of customers who had just made the switch. As a result, for the first version after I joined (6 sprints of 2 weeks each), we mostly did maintenance and bug fixes for this new application. As a result, I got to learn the ropes in an easy setting before continuing with project development again.<br/>We also took responsibility for the schoolwise application, which had already been build earlier in Angular than the wisecat+.",
+      "id": "wise-maintenance",
+      "links": [
+        {
+          "before": "example",
+          "src": "https://webcat.hostedwise.nl/wise-apps/opac/branch/5000/home",
+          "text": "wisecat+",
+          "after": " of one of our customers."
+        },
+        {
+          "before": "example",
+          "src": "https://rijnbrink.hostedwise.nl/wise-apps/schoolwise/5220/home",
+          "text": "schoolwise",
+          "after": " of one of our customers."
+        }
+      ],
+      "skills": [
+        "Java programming",
+        "Working together",
+        "Angular programming",
+        "Bootstrap styling",
+        "ngrx store development / data flow management"
+      ]
+    },
+    {
+      "category": "prof",
+      "title": "Creation of different subversions of the Wise frontend application",
+      "description": "During my time at OCLC, we worked on creating different Wise applications within the same project as the above mentioned wisecat+. The difference between these 'client modes' as we call them is their audience. See the links and proof section for all the different client modes I was involved in building and their purpose / difference with the wisecat+.",
+      "id": "wise-clientmodes",
+      "links": [
+        {
+          "before": "The first client mode is called ",
+          "src": "https://webcat.hostedwise.nl/wise-apps/opac/juniorwise/5000/home",
+          "text": "juniorwise",
+          "after": ", which is aimed at elementary school children who have an account at the library. Juniorwise is a toned down version of the wisecat+ with its own background color and some pages that are unique to juniorwise. This client mode involved a homepage that is fed from a json feed based on jeugdbieb.nl.<br/>The pages unique to juniorwise are the lists and explore pages. I was involved in creating the endpoints for those pages and in converting the json feed for the homepage you see when you open this client mode (including the styling of several of the sections you see on the homepage)."
+        },
+        {
+          "before": "The second client mode is called the ",
+          "src": "https://webcat.hostedwise.nl/wise-apps/opac/pubcat/5000/home",
+          "text": "pubcat",
+          "after": ", which is aimed at customers who are standing in the library and are using a computer that should only show local information. The frontend doesn't look any different from the wisecat+, except that libraries can opt not to allow the login functionality. Since there are a lot of buttons in the application that require you to login, most of the frontend work for the pubcat was to make sure you don't see those buttons if the library chose not to allow login in their pubcat. Besides that most of the work was in the backend, mostly involving a different flow for reservations when using a pubcat and making sure the pubcat only searched inside the local library collection."
+        }
+      ],
+      "skills": [
+        "Java programming",
+        "Working together",
+        "Angular programming",
+        "Bootstrap styling",
+        "ngrx store development / data flow management",
+        "json feed mapping",
+        "working with external data"
+      ]
+    },
+    {
+      "category": "prof",
+      "title": "Build, projects and maintenance Hanze.nl",
+      "description": "As a developer at The Factor.E, I was part of the team that build the Hanze.nl website. Because we started building this website not even half a year after I joined this company and this was my first job, I learned a lot from this 2 year project. I started out as very much a junior on this project who was only making easy components and setting up basic page structures. By the time the mvp was launched, I was very much a medior and involved in creating some of the most complex code that this customer wanted, like a microsoft dynamics connection to create their web forms and save their study choice test results. In the last year I worked there, a while after the mvp was live, I took over as project lead for Hanze.nl.",
+      "id": "hanze",
+      "links": [
+        {
+          "before": "I involved with the entire build of their website ",
+          "src": "https://www.hanze.nl/",
+          "text": "hanze.nl"
+        },
+        {
+          "before": "After the mvp was released, we did another project: creating the ",
+          "src": "https://www.hanze.nl/nl/studeren/studiekeuzetest",
+          "text": "study choice test",
+          "after": ", which was my last professional project at The Factor.E. I had the lead role in this project, which involved working with frontend developers to create the angular application this test is build in and creating a microsoft dynamics coupling that saves the answers of the students taking the test."
+        },
+        {
+          "before": "I was also involved in the build and styling changes of the two subsites of hanze.nl:<br>-",
+          "src": "https://www.academieminerva.nl/nl",
+          "text": "Minerva Art Academy"
+        },
+        {
+          "before": "-",
+          "src": "https://www.prinsclausconservatorium.nl/en",
+          "text": "Prins Claus Conservatorium"
+        }
+      ],
+      "skills": [
+        "Java programming",
+        "Working together",
+        "Bloomreach development",
+        "Microsoft Dynamics coupling",
+        "Working with an external party",
+        "Working with a customer",
+        "Code reviews in project settings",
+        "Lead role in a project"
+      ]
+    },
+    {
+      "category": "prof",
+      "title": "Maintenance and projects Saxion.nl",
+      "description": "As a developer at The Factor.E, I was part of the team that maintained the website for Saxion.nl.<br/>We did general bugfixes and minor and major upgrades of the cms they are on (Bloomreach). Besides this, we did a lot of small scoped projects that would take 1 to 2 months and are then finished again. For a more detailed overview of the work I did for them, you can look at the links and proof section.",
+      "id": "saxion",
+      "links": [
+        {
+          "before": "I wasn't involved with the entire build of their website, but I did do a lot of maintenance for it:",
+          "src": "https://www.saxion.nl/#",
+          "text": "saxion.nl"
+        },
+        {
+          "before": "I was involved with the build of their news platform ",
+          "src": "https://www.saxnow.nl/",
+          "text": "saxnow.nl",
+          "after": ", which was my first ever professional project."
+        },
+        {
+          "before": "The last project I did for them was the re-build of their ",
+          "src": "https://www.saxion.nl/over-saxion/werken-bij/en",
+          "text": "working at Saxion",
+          "after": " website.<br/>This project required us to work with an external provider that provided a json feed with the vacancies, which we then had to map to the objects. This feed was split over the 2 languages involved (Dutch and English). It also involved a frontend redesign, for which we worked together with EightMedia (the entire saxion frontend was made by this external party)."
+        }
+      ],
+      "skills": [
+        "Java programming",
+        "Working together",
+        "Bloomreach development",
+        "Json feed mapping",
+        "Working with an external party",
+        "Working with a customer",
+        "Code reviews in project settings"
+      ]
+    },
+    {
       "category": "bach",
       "title": "Theme 4 - Genes and inheritance",
-      "description": "The last term of my propadeautic year was all about inheritance and how this worked and the theme project reflected this.\n In pairs we had to make a website that had a page in it containing\n a form where you could put in a genotype for a mother and a genotype for a father and\n then a script that we had to write ourselves calculated all the possible genotypes and fenotypes for a possible baby.\n Then a CGI script would turn the results into a webpage and showcase this to the user.\n To calculate the possibilities and showcase the results we used python scripts with in the last case the cgi module.\n We also had to write two chapters of a scientific report for practice purposes.",
+      "description": "The last term of my propadeautic year was all about inheritance and how this worked and the theme project reflected this. In pairs we had to make a website that had a page in it containing a form where you could put in a genotype for a mother and a genotype for a father and then a script that we had to write ourselves calculated all the possible genotypes and fenotypes for a possible baby. Then a CGI script would turn the results into a webpage and showcase this to the user. To calculate the possibilities and showcase the results we used python scripts with in the last case the cgi module. We also had to write two chapters of a scientific report for practice purposes.",
       "id":"theme4",
       "links":[
         {
-          "before": "For the whole project, including code, look at the bitbucket repository I created for the project:\n",
+          "before": "For the whole project, including code, look at the bitbucket repository I created for the project:",
           "src": "https://bitbucket.org/wendy1998/theme-4-genes-and-inheritance/src/master/",
           "text": "Theme 4 Bitbucket",
-          "after": "I only created the repository when I wrote this website because it wasn't part of the assignments yet in the first year.\n This means it doesn't have proper commit messages.\n When you look at code, keep in mind that I wrote this in my first year and that my quality of coding has much improved since then."
+          "after": "<br/>I only created the repository when I wrote this website because it wasn't part of the assignments yet in the first year. This means it doesn't have proper commit messages. When you look at code, keep in mind that I wrote this in my first year and that my quality of coding has much improved since then."
         }],
       "skills":[
         "Python programming",
@@ -24,7 +153,7 @@
     {
       "category": "prof",
       "title": "YMDb - YoungCapital Movie Database",
-      "description": "As the final assignment of the Java traineeship of YounCapital,\nme and two others have created a web-application that is based on IMDB.\nOn this web-application, users can search for movies and their ratings and give ratings to them themselves.\nThey can also make lists of movies of what they want to see and what they own.\n                      Next to that, they can leave comments on the movies' pages.\nCritics can make a separate account and leave official reviews for movies.\n                      The front-end was created using the Angular framework and the back-end is a Spring Boot application which uses an MVC approach.",
+      "description": "As the final assignment of the Java traineeship of YoungCapital, me and two others have created a web-application that is based on IMDB.<br/>On this web-application, users can search for movies and their ratings and give ratings to them themselves. They can also make lists of movies of what they want to see and what they own.<br/>Besides that, they can leave comments on the movies' pages. Critics can make a separate account and leave official reviews for movies. <br/>The front-end was created using the Angular framework and the back-end is a Spring Boot application which uses an MVC approach.",
       "id":"ymdb",
       "skills":[
         "Angular",
@@ -41,19 +170,18 @@
     {
       "category": "prof",
       "title": "Gauss - Eulor 2.0",
-      "description": "As the final assignment of the C#.Net traineeship of YounCapital,\n me and two others have created a web-application with c#.\n                      On this web-application, teachers can make their own assignments and check what\n                      students have answered on them and students can try to answer all the available assignments.\n                      The frontend was made with ASP.NET razor pages, razor code, HTML, CSS and Javascript / Jquery.\n                      During the process of making this assignment,\n                      we used the Scrum way of development including but not limited to sprints and reflections.\n                      We got the chance to deploy the application on a linux server using Jenkins,\n                      but this was put offline after the traineeship finished.",
+      "description": "As the final assignment of the C#.Net traineeship of YoungCapital, me and two others have created a web-application with C#.                      On this web-application, teachers can make their own assignments and check what                      students have answered on them and students can try to answer all the available assignments.                      The frontend was made with ASP.NET razor pages, razor code, HTML, CSS and Javascript / Jquery.                      During the process of making this assignment,                      we used the Scrum way of development including but not limited to sprints and reflections.                      We got the chance to deploy the application on a linux server using Jenkins,                      but this was put offline after the traineeship finished.",
       "id":"gauss",
       "links":[
         {
           "before": "The web-application spoken about is based on ",
           "src": "https://projecteuler.net/archives",
-          "text": "Project Euler",
-          "after": " (opens in a new tab).\n"
+          "text": "Project Euler"
         }
       ],
       "skills":[
         "Razor pages web-development",
-        "Programming in c#",
+        "Programming in C#",
         "Database connectivity / SQL",
         "Javascript / Jquery ",
         "Working in groups",
@@ -148,8 +276,7 @@
         {
           "before": "Because almost all of this was done in galaxy, the bitbucket repository for this theme is almost empty, but you can look at it",
           "src": "https://bitbucket.org/wendy1998/diagnostic-metagenomic-analysis/src/master/",
-          "text": "here",
-          "after": " (opens in new tab)."
+          "text": "here"
         }
       ],
       "skills": [
@@ -167,7 +294,7 @@
       "id": "theme7",
       "skills": [
         "Creating a report with Rmarkdown",
-        "Gene expresion analysis",
+        "Gene expression analysis",
         "Programming in R",
         "Working with several statistics",
         "Visualizing content in Rmarkdown",
@@ -186,8 +313,7 @@
         {
           "before": "This is the link to the bitbucket repository containing all the project work: ",
           "src": "https://bitbucket.org/wendy1998/thema08-systemsbiology/src/master/",
-          "text": "Theme 8",
-          "after": " (opens in new tab)."
+          "text": "Theme 8"
         }
       ],
       "skills": [
@@ -208,14 +334,12 @@
         {
           "before": "Bitbucket for Java wrapper: ",
           "src": "https://bitbucket.org/wendy1998/thema-9-horce-colic-classifier/src/second/",
-          "text": "Java wrapper repo",
-          "after": " (opens in new tab)."
+          "text": "Java wrapper repo"
         },
         {
           "before": "Bitbucket for datamining part: ",
           "src": "https://bitbucket.org/wendy1998/thema-09-datamining/src/master/",
-          "text": "Datamining repo",
-          "after": " (opens in new tab)."
+          "text": "Datamining repo"
         }
       ],
       "skills": [
@@ -233,25 +357,25 @@
         {
           "before": "Bitbucket repository: ",
           "src": "https://bitbucket.org/wendy1998/thema-10-web-based-information-systems/src/master/",
-          "text": "Theme 10 repo",
-          "after": " (opens in new tab)."
+          "text": "Theme 10 repo"
         }
-      ], "skills": [
-      "Java programming",
-      "JavaScript programming",
-      "Database creation/querying with SQL",
-      "Webapp creation with Java/ JSP's",
-      "Working with DataTables/AJAX calls",
-      "Working for a boss",
-      "Creating proper plan of actions",
-      "Presenting",
-      "Scientific writing"
+      ],
+      "skills": [
+        "Java programming",
+        "JavaScript programming",
+        "Database creation/querying with SQL",
+        "Webapp creation with Java/ JSP's",
+        "Working with DataTables/AJAX calls",
+        "Working for a boss",
+        "Creating proper plan of actions",
+        "Presenting",
+        "Scientific writing"
       ]
     },
     {
       "category": "bach",
       "title": "Theme 11 - Bioinformatics and functional genomics in Sweden",
-      "description": "During the second half of the third schoolyear, you can choose to go abroad and study at a foreign University, so this is what I did. I followed a course there that was about bioinformatics techniques, but also about functional genomics, so laboratory techniques. In this course we had to do two practical assignments, of which one was about something I hadn't done before: finding the function of an unknown gene/protein in the cell using different databases and techniques.",
+      "description": "During the second half of the third school year, you can choose to go abroad and study at a foreign University, so this is what I did. I followed a course there that was about bioinformatics techniques, but also about functional genomics, so laboratory techniques. In this course we had to do two practical assignments, of which one was about something I hadn't done before: finding the function of an unknown gene/protein in the cell using different databases and techniques.",
       "id": "theme11",
       "skills": [
         "Working together",

@@ -10,11 +10,29 @@
   --hover-bg-color: #9999CC;
 }
 
+.external::after {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
+  margin: 0 0 0 5px;
+}
+
 body {
   background-color: #CCCCFF;  /*204,204,255*/
   font-family: "Open Sans", sans-serif;
   color: #000;
   font-size: 1em;
+}
+
+.btn-primary {
+  --bs-btn-color: var(--bs-secondary);
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--menu-border-color);
+  --bs-btn-hover-color: var(--bs-btn-color);
+  --bs-btn-hover-bg: var(--hover-bg-color);
+  --bs-btn-hover-border-color: var(--bs-btn-border-color);
+  --bs-btn-active-color: var(--bs-btn-color);
+  --bs-btn-active-bg: var(--bs-btn-color);
+  --bs-btn-active-border-color: var(--bs-btn-border-color);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 
 .nav {
@@ -54,11 +72,11 @@ table {
 }
 
 #schooling {
-  width: calc(8*200px + 25px);
+  width: 2600px
 }
 
 #jobs {
-  width: calc(15*120px + 55px);
+  width: 2000px
 }
 
 .tab-content {
