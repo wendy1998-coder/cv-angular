@@ -27,20 +27,7 @@
               "src/assets",
               "src/_redirects"
             ],
-            "styles": ["src/css/styles.css"],
-            "scripts": [
-              "src/assets/scripts/lib/jquery/jquery.js",
-              "src/assets/scripts/lib/popper.min.js",
-              "src/assets/scripts/lib/bootstrap/bootstrap.js",
-              "src/assets/scripts/lib/bootstrap/bootstrap.bundle.js",
-              "src/assets/scripts/lib/bootstrap/bootstrap.esm.js",
-              "src/assets/scripts/lib/datatables/jquery.dataTables.min.js",
-              "src/assets/scripts/lib/datatables/dataTables.bootstrap4.min.js",
-              "src/assets/scripts/lib/datatables/dataTables.responsive.min.js",
-              "src/assets/scripts/lib/datatables/dataTables.rowGroup.min.js",
-              "src/assets/scripts/lib/datatables/dataTables.scroller.min.js",
-              "src/assets/scripts/javascript/adjust_image_sizes.js"
-            ]
+            "styles": ["src/css/styles.css"]
           },
           "configurations": {
             "production": {

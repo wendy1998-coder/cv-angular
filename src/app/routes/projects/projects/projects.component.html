@@ -4,14 +4,14 @@
 </p>
 <div class="accordion accordion-flush" id="projectsAccordion">
   <div class="accordion-item">
-    <h2 class="accordion-header" id="headingBachelor">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#bachelor" aria-expanded="true" aria-controls="bachelor">
-        Bachelor
+    <h2 class="accordion-header" id="headingProfessional">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#professional" aria-expanded="true" aria-controls="professional">
+        Professional projects
       </button>
     </h2>
-    <div id="bachelor" class="accordion-collapse collapse show" aria-labelledby="headingBachelor" data-bs-parent="#projectsAccordion">
+    <div id="professional" class="accordion-collapse collapse show" aria-labelledby="headingProfessional" data-bs-parent="#projectsAccordion">
       <div class="accordion-body">
-        @for (project of projectsDict.bach; track project.id) {
+        @for (project of projectsDict.prof; track project.id) {
           <app-project-item [project]="project"></app-project-item>
         }
       </div>
@@ -32,14 +32,14 @@
     </div>
   </div>
   <div class="accordion-item">
-    <h2 class="accordion-header" id="headingProfessional">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#professional" aria-expanded="false" aria-controls="professional">
-        Professional projects
+    <h2 class="accordion-header" id="headingBachelor">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#bachelor" aria-expanded="false" aria-controls="bachelor">
+        Bachelor
       </button>
     </h2>
-    <div id="professional" class="accordion-collapse collapse" aria-labelledby="headingProfessional" data-bs-parent="#projectsAccordion">
+    <div id="bachelor" class="accordion-collapse collapse" aria-labelledby="headingBachelor" data-bs-parent="#projectsAccordion">
       <div class="accordion-body">
-        @for (project of projectsDict.prof; track project.id) {
+        @for (project of projectsDict.bach; track project.id) {
           <app-project-item [project]="project"></app-project-item>
         }
       </div>

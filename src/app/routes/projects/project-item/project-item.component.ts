@@ -31,7 +31,7 @@ export class ProjectItemComponent implements OnInit {
           content += link.before
         }
         if (link.src && link.text) {
-          content += " <a href='" + link.src + "' target='_blank'>" + link.text + "</a> "
+          content += " <a href='" + link.src + "' target='_blank'><span class='external'>" + link.text + "</span></a> "
         }
         if (link.after) {
           content += link.after + "<br/>"

@@ -9,9 +9,7 @@ import { Skill } from "../../../models/skill";
   standalone: false
 })
 export class SkillsComponent implements OnInit {
-public skillsArray: Skill[] = [];
-
-  constructor() { }
+  public skillsArray: Skill[] = [];
 
   ngOnInit(): void {
     for (const key in skills) {
@@ -19,8 +17,5 @@ public skillsArray: Skill[] = [];
       const skill = new Skill(json.name, json.level, json.origin, json.info, json.type);
       this.skillsArray.push(skill);
     }
-
-    $.getScript("../../../../assets/scripts/javascript/create_skills_datatable.js");
   }
-
 }
