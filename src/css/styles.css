@@ -64,3 +64,9 @@ table {
 .tab-content {
   padding-top: 20px;
 }
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon,
+.carousel-indicators [data-bs-target] {
+  background-color: black;
+}

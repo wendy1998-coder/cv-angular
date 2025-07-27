@@ -5,7 +5,10 @@
   "compilerOptions": {
     "outDir": "./out-tsc/app",
     "resolveJsonModule": true,
-    "types": ["jquery"]
+    "types": [
+      "jquery",
+      "@angular/localize"
+    ]
   },
   "files": [
     "src/main.ts",
