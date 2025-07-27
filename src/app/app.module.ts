@@ -15,6 +15,7 @@ import { SkillsItemComponent } from './routes/skills/skills-item/skills-item.com
 import { HobbiesComponent } from "./routes/hobbies/hobbies.component";
 import { SchoolingComponent } from "./routes/schooling/schooling.component";
 import { NavTabsComponent } from "./components/nav-tabs/nav-tabs.component";
+import {NgbCarousel, NgbSlide} from "@ng-bootstrap/ng-bootstrap";
 
 @NgModule({
   declarations: [
@@ -35,6 +36,8 @@ import { NavTabsComponent } from "./components/nav-tabs/nav-tabs.component";
     BrowserModule,
     AppRoutingModule,
     NavTabsComponent,
+    NgbCarousel,
+    NgbSlide,
   ],
   providers: [],
   exports: [
