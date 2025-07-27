@@ -4,12 +4,12 @@ import { Link } from "./link";
 export class Project {
   title: string;
   description: string;
-  links: Link[];
+  links: Link[] | undefined;
   skills: string[];
   id: string;
   category: ProjectCategory;
 
-  constructor(title: string, description: string, links: Link[], skills: string[], id: string, category: ProjectCategory) {
+  constructor(title: string, description: string, links: Link[] | undefined, skills: string[], id: string, category: ProjectCategory) {
     this.title = title;
     this.description = description;
     this.links = links;
