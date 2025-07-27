@@ -2,21 +2,21 @@
   "skills": [
     {
       "name": "Python 3 programming",
-      "level": ["intermediate"],
+      "level": ["beginner", "intermediate"],
       "origin": "bach",
       "info": [],
       "type": "hard"
     },
     {
       "name": "C# programming",
-      "level": ["beginner", "intermediate"],
+      "level": ["beginner"],
       "origin": "prof",
       "info": [],
       "type": "hard"
     },
     {
       "name": "Entity framework",
-      "level": ["beginner", "intermediate"],
+      "level": ["beginner"],
       "origin": "prof",
       "info": [],
       "type": "hard"
@@ -37,7 +37,7 @@
     },
     {
       "name": "R/Rmarkdown",
-      "level": ["intermediate"],
+      "level": ["beginner"],
       "origin": "bach",
       "info": [],
       "type": "hard"
@@ -50,6 +50,9 @@
       "info": [
         {
           "before": "All the projects I did at The Factor.e (see jobs), were in java (8/11). "
+        },
+        {
+          "before": "the backend development I did at OCLC (see jobs), was in java (21). "
         },
         {
           "before": "Java course programming assignments repository:",
@@ -67,56 +70,68 @@
     },
     {
       "name": "Spring boot development",
-      "level": ["beginner", "intermediate"],
-      "origin": "prof",
-      "info": [],
-      "type": "hard"
-    },
-    {
-      "name": "JavaScript/Jquery",
-      "level": ["intermediate"],
-      "origin": "bach",
-      "info": [],
-      "type": "hard"
-    },
-    {
-      "name": "Angular Development",
       "level": ["beginner"],
       "origin": "prof",
       "info": [],
       "type": "hard"
     },
     {
-      "name": "Freemarker development",
-      "level": ["intermediate"],
-      "origin": "prof",
+      "name": "JavaScript/Jquery",
+      "level": ["beginner", "intermediate"],
+      "origin": "bach",
       "info": [],
       "type": "hard"
     },
     {
-      "name": "Bloomreach development",
+      "name": "Angular Development",
+      "level": ["beginner", "intermediate"],
+      "origin": "prof",
+      "info": [
+        {
+          "before": "the frontend development I did at OCLC (see jobs), was in Angular + ng-bootstrap and ngrx store."
+        }
+      ],
+      "type": "hard"
+    },
+    {
+      "name": "Freemarker development",
+      "level": ["beginner","intermediate"],
+      "origin": "prof",
+      "info": [
+        {
+          "before": "the templating work I did at The Factor.e (see jobs), was in Freemarker. "
+        }
+      ],
+      "type": "hard"
+    },
+    {
+      "name": "Bloomreach XM development",
       "level": ["intermediate"],
       "origin": "prof",
-      "info": [],
+      "info": [
+        {
+          "before": "the development work I did at The Factor.e (see jobs), was in Bloomreach XM. "
+        }
+      ],
       "type": "hard"
     },
     {
       "name": "Jenkins automated integration",
-      "level": ["beginner","intermediate"],
+      "level": ["beginner"],
       "origin": "prof",
       "info": [],
       "type": "hard"
     },
     {
       "name": "Working with DataTables/AJAX calls",
-      "level": ["intermediate"],
+      "level": ["beginner"],
       "origin": "bach",
       "info": [],
       "type": "hard"
     },
     {
       "name": "HTML",
-      "level": ["intermediate", "advanced"],
+      "level": ["intermediate"],
       "origin": "bach",
       "info": [],
       "type": "hard"
@@ -130,14 +145,14 @@
     },
     {
       "name": "Jupyter Notebooks for python",
-      "level": ["beginner","intermediate"],
+      "level": ["beginner"],
       "origin": "hon",
       "info": [],
       "type": "hard"
     },
     {
       "name": "Pandas for python",
-      "level": ["beginner","intermediate"],
+      "level": ["beginner"],
       "origin": "hon",
       "info": [],
       "type": "hard"
@@ -165,7 +180,7 @@
     },
     {
       "name": "Creating Gradle / maven managed webapps with Java",
-      "level": ["intermediate", "advanced"],
+      "level": ["beginner","intermediate"],
       "origin": "bach",
       "info": [],
       "type": "hard"
@@ -220,12 +235,12 @@
       "type": "hard"
     },
     {
-      "name": "Creating programs that can communicate with a database with Python, c# or Java",
+      "name": "Creating programs that can communicate with a database with Python, C# or Java",
       "level": ["intermediate", "advanced"],
       "origin": "bach",
       "info": [
         {
-          "before": "While I do not have any professional (read: after my bachelor) experience with MySql, I do have several personal projects in which I use it and setup / connect to databases. Some of those projects have open bitbucket or github repos which I will link here.",
+          "before": "I have several personal projects in which I use it and setup / connect to databases. Some of those projects have open bitbucket or github repos which I will link here. I also have some experience with mysql from my job at OCLC (see jobs).",
           "src": "https://bitbucket.org/wendy1998/bookkeeper/src/master/",
           "text": "Bitbucket bookkeeper",
           "after": " (opens in new tab)."
@@ -250,14 +265,14 @@
     },
     {
       "name": "Gene expression analysis in R",
-      "level": ["intermediate"],
+      "level": ["beginner"],
       "origin": "bach",
       "info": [],
       "type": "hard"
     },
     {
       "name": "Calculating through mathematical models with R",
-      "level": ["intermediate"],
+      "level": ["beginner"],
       "origin": "bach",
       "info": [],
       "type": "hard"
@@ -271,28 +286,28 @@
     },
     {
       "name": "Scientific writing",
-      "level": ["intermediate", "advanced"],
+      "level": ["intermediate"],
       "origin": "bach",
       "info": [],
       "type": "hard"
     },
     {
       "name": "Working together in an interdisciplinary environment",
-      "level": ["beginner", "intermediate"],
-      "origin": "hon",
+      "level": ["intermediate"],
+      "origin": "prof",
       "info": [],
       "type": "soft"
     },
     {
       "name": "Working for a boss/superior",
-      "level": ["intermediate"],
-      "origin": "hon",
+      "level": ["intermediate", "advanced"],
+      "origin": "prof",
       "info": [],
       "type": "soft"
     },
     {
       "name": "Making a professional plan of action, including a gant-chart, pert-chart and working packages",
-      "level": ["intermediate", "advanced"],
+      "level": ["intermediate"],
       "origin": "hon",
       "info": [],
       "type": "soft"
@@ -304,15 +319,16 @@
       "info": [],
       "type": "soft"
     },
-    {"name": "Big project management",
+    {
+      "name": "Big project management",
       "level": ["intermediate"],
-      "origin": "hon",
+      "origin": "prof",
       "info": [],
       "type": "soft"
     },
     {
       "name": "Speaking in front of big crowds",
-      "level": ["intermediate"],
+      "level": ["beginner","intermediate"],
       "origin": "hon",
       "info": [],
       "type": "soft"

@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import {NavTab} from "../../models/nav-tab";
+import { Component } from '@angular/core';
+import { NavTab } from "../../models/nav-tab";
 
 @Component({
   selector: 'app-schooling',
@@ -11,9 +11,9 @@ export class SchoolingComponent {
   protected readonly navTabs: NavTab[] = [
     new NavTab('Highschool',
       "<p>" +
-      "After my 2 years in the so called \"brugklas\" where you do two streams and after that you choose 1, I went to VWO. " +
-      "Sadly due to personal reasons, I had to go down one stream after the third year of high school (so only one year on VWO) " +
-      "to HAVO and after another two years I graduated from this stream. " +
+      "After my 2 years in the so-called \"brugklas\" where you do two streams after which that you choose 1, I went to VWO. " +
+      "Sadly, due to personal reasons, I had to go down one stream after the third year of high school (so only one year on VWO) " +
+      "to HAVO. After another two years, I graduated from this stream. " +
       "I took the double exam package \"Nature and Health\" and \"Nature and tech\". " +
       "So in the end, I graduated from high school with the following courses:" +
       "</p>" +
@@ -45,10 +45,10 @@ export class SchoolingComponent {
       "after which it would calculate all the possible genotypes and fenotypes for a baby from that and visualize that on the screen.</p>" +
       "<p>" +
       "During the main phase of my bachelor, I had many specific biology classes like immunology and microbiology, " +
-      "but also more in-depth computer science classes about for example, database management and creation using mySQL. " +
+      "but also more in-depth computer science classes. For example about database management and creation using mySQL. " +
       "I also had more advanced statistics courses in R, where the statistics for a specific way of research was taught " +
       "(general statistics was taught in the last term of the first year). " +
-      "I have also had general courses in so called \"Theory of bioinformatics\", " +
+      "I have also had general courses in so-called \"Theory of bioinformatics\", " +
       "in which everything about alignments and the different algorithms for that was taught " +
       "(including one course devoted to all the different BLAST algorithms). " +
       "I also had basic Java, datamining and webservice creation courses. " +
@@ -66,7 +66,8 @@ export class SchoolingComponent {
       "</ul>" +
       "<p>During my last year, I did two internships. " +
       "The first one was about creating a web interface for a research group in Leuven, Belgium, " +
-      "so they can easily access their database and analyze the data.<br/>" +
+      "so they can easily access their database and analyze the data. " +
+      "In this internship, I visualized the steps the patients took while taking an aphasia test.<br/>" +
       "The second was in Wageningen, The Netherlands. In this internship, I had to optimize a Bionano Genomics pipeline and " +
       "create a good way to assess the quality of the molecules that come out of the pipeline and advice on " +
       "assembly settings for them.</p>"
@@ -81,8 +82,8 @@ export class SchoolingComponent {
       "first learned how to observe and write down everything in a clear and reproducible way. " +
       "The science fair in Slovakia was also a great experience to have, " +
       "because it taught me how to attract the attention of public walking all around you. " +
-      "Now that I actually have a scientific background, " +
-      "I can see that the entire process of setting up and doing the project wasn't very scientific at all," +
+      "Now that I did a scientific study, " +
+      "I can see that the entire process of setting up and doing the project wasn't very scientific at all, " +
       "but it still taught me some valuable lessons.</p>" +
       "<h4>Hanze Honours program</h4>" +
       "<p>" +
@@ -93,16 +94,30 @@ export class SchoolingComponent {
       "I learned to work interdisciplinary and how to ask out wishes from \"customers\" while making something for someone else.</p>"
     ),
     new NavTab('Professional education',
-      "<h4>YoungCapital C# traineeship</h4>" +
+      "<h4>YoungCapital C# and Java traineeship</h4>" +
       "<p>" +
-      "To make the transition into fullstack development, " +
+      "To make the transition into pure development (as opposed to bio-informatics, for which I just finished a studies), " +
       "I did a C#.Net traineeship of eight weeks provided by YoungCapital Next. " +
       "In this traineeship I got the chance to earn two certificates: Scrum PSM1 and MCSD 70-483. " +
       "At the beginning of the traineeship, they discovered that my level of expertise was a lot " +
       "higher than the level they were expecting. " +
       "To prevent me from getting bored, they offered me the chance to do two traineeships at the same time, " +
       "so I ended up doing their Java traineeship as well. " +
-      "Because of this, I also got the chance to take the OCA (Oracle Certified Associate) exam." +
+      "Because of this, I also got the chance to take the OCA (Oracle Certified Associate) exam for Java 8." +
+      "</p>" +
+      "<h4>Bloomreach developer fundamentals</h4>" +
+      "<p>" +
+      "When I started working, I got placed in a team doing backend cms development in Bloomreach. " +
+      "To learn how the platform works, I went to a training given by Bloomreach themselves. " +
+      "Here I learned how to use the experience manager, the console and JSON feed features that come with Bloomreach. " +
+      "I also learned how to program and make available my own components." +
+      "</p>" +
+      "<h4>How to Research and Write Using Generative AI Tools</h4>" +
+      "<p>" +
+      "Through the second company I worked for, I did a course on how to use AI the best and how to interact with AI chatbots. " +
+      "In this I learned that I should see AI as a partner " +
+      "and that the conversation should go back and forth, especially if the AI doesn't immediately help. " +
+      "I also learned how to write my prompts in such a way that the chances of getting the right result are the heighest." +
       "</p>")
   ]
 }
