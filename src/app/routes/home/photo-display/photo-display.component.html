@@ -1,3 +1,16 @@
-<img class="img img-fluid mx-auto" id="professional" src="assets/images/professional.png" alt="Professional image" title="Me" />
-<br/>
-<img class="img img-fluid mx-auto" id="colloquium" src="assets/images/colloquium.jpg" alt="colloquium" title="Colloquium presentation" />
+<ngb-carousel
+  role="group"
+  [activeId]="'' + initialSlideIndex"
+  [interval]="0"
+  [showNavigationArrows]="true"
+  [showNavigationIndicators]="true"
+  (slide)="onSlide($event)"
+>
+  <ng-template ngbSlide id="1">
+    <img class="img img-fluid mx-auto" src="assets/images/professional-photo.jpg" alt="Professional image" title="Me" />
+  </ng-template>
+  <ng-template ngbSlide id="2">
+    <img class="img img-fluid mx-auto" src="assets/images/professional-photo2.jpg" alt="Professional image" title="Me" />
+  </ng-template>
+</ngb-carousel>
+
