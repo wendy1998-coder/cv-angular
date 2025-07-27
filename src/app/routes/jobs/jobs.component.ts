@@ -24,8 +24,7 @@ export class JobsComponent {
       "My last semi-related job was creating a game for the company of my mother. " +
       "I didn't have any experience with creating games, but after I read a lot online I could make a game quite easily. " +
       "I chose to do this in python, because this is the language I'm most familiar with, but in hindsight " +
-      "I should have gone with Java, because now they couldn't implement it in their commercial website. " +
-      "To see the code and play the game, go to <a href=\"https://repl.it/@Wendyvan1/wettergame\" target=\"_blank\">Repl.it</a>. " +
+      "I should have gone with Java, because now they couldn't implement it in their commercial website." +
       "</p>"),
     new NavTab('Internships',
       "<p>During the last year of my bachelor, I had to do two internships. " +
