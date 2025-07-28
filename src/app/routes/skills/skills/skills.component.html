@@ -30,26 +30,24 @@ If I learned them through my honours program, the honours logo is displayed in t
 <div id="skill_filters" class="row">
   <div class="col-md">
     <h3>Origin</h3>
-    <label><input name="filter_origin" type="checkbox" id="bachelor_ori"> Bachelor</label><br/>
-    <label><input name="filter_origin" type="checkbox" id="honours_ori"> Honours program</label><br/>
-    <label><input name="filter_origin" type="checkbox" id="professional_ori"> Working live</label><br/>
+    <label><input name="filter_origin" type="checkbox" (input)="toggleOriginFilter(OriginEnum.Bachelor)"> Bachelor</label><br/>
+    <label><input name="filter_origin" type="checkbox" (input)="toggleOriginFilter(OriginEnum.Honours)"> Honours program</label><br/>
+    <label><input name="filter_origin" type="checkbox" (input)="toggleOriginFilter(OriginEnum.Professional)"> Working live</label><br/>
   </div>
   <div class="col-md">
     <h3>Level</h3>
-    <label><input name="filter_level" type="checkbox" id="beginner_level"> Beginner</label><br/>
-    <label><input name="filter_level" type="checkbox" id="middle1_level"> Beginner / intermediate</label><br/>
-    <label><input name="filter_level" type="checkbox" id="intermediate_level"> Intermediate</label><br/>
-    <label><input name="filter_level" type="checkbox" id="middle2_level"> Intermediate / Advanced</label><br/>
-    <label><input name="filter_level" type="checkbox" id="advanced_level"> Advanced </label><br/>
+    <label><input name="filter_level" type="checkbox" (input)="toggleLevelFilter(SkillLevel.BEGINNER)"> Beginner</label><br/>
+    <label><input name="filter_level" type="checkbox" (input)="toggleLevelFilter(SkillLevel.BEGINNER_INTERMEDIATE)"> Beginner / intermediate</label><br/>
+    <label><input name="filter_level" type="checkbox" (input)="toggleLevelFilter(SkillLevel.INTERMEDIATE)"> Intermediate</label><br/>
+    <label><input name="filter_level" type="checkbox" (input)="toggleLevelFilter(SkillLevel.INTERMEDIATE_ADVANCED)"> Intermediate / Advanced</label><br/>
+    <label><input name="filter_level" type="checkbox" (input)="toggleLevelFilter(SkillLevel.ADVANCED)"> Advanced </label><br/>
   </div>
   <div class="col-md">
     <h3>Type</h3>
-    <label><input name="filter_type" type="checkbox" id="hard_type"> Hard skills</label><br/>
-    <label><input name="filter_type" type="checkbox" id="soft_type"> Soft skills</label><br/>
+    <label><input name="filter_type" type="checkbox" (input)="toggleTypeFilter(SkillType.HARD)"> Hard skills</label><br/>
+    <label><input name="filter_type" type="checkbox" (input)="toggleTypeFilter(SkillType.SOFT)"> Soft skills</label><br/>
   </div>
 </div>
-<button id="apply_filters" name="Apply filters">Apply filters</button>
-<button id="clear_filters" name="Apply filters">Clear filters</button>
 <br/>
 
 <div class="table-responsive mt-2">
@@ -64,8 +62,14 @@ If I learned them through my honours program, the honours logo is displayed in t
     </tr>
   </thead>
   <tbody>
-    @for (skill of skillsArray; track skill) {
-      <tr skills-item [skill]="skill"></tr>
+    @if (visibleSkillsArray.length > 0) {
+      @for (skill of visibleSkillsArray; track skill) {
+        <tr skills-item [skill]="skill"></tr>
+      }
+    } @else {
+      <tr>
+        <td colspan="5">No results found with current filtering, change your filters to see results.</td>
+      </tr>
     }
   </tbody>
 </table>

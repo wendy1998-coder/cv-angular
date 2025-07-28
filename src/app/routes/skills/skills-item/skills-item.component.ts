@@ -1,5 +1,8 @@
-import {Component, Input} from '@angular/core';
-import {Skill} from '../../../models/skill';
+import { Component, Input } from '@angular/core';
+import { Skill } from '../../../models/skill/skill';
+import { SkillLevel } from "../../../models/skill/skill-level";
+import { OriginEnum } from "../../../models/origin-enum";
+import { SkillType } from "../../../models/skill/skill-type";
 
 @Component({
   selector: 'tr[skills-item]',
@@ -10,4 +13,7 @@ import {Skill} from '../../../models/skill';
 export class SkillsItemComponent {
   @Input() skill!: Skill;
 
+  protected readonly SkillLevel = SkillLevel;
+  protected readonly OriginEnum = OriginEnum;
+  protected readonly SkillType = SkillType;
 }
