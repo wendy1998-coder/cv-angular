@@ -1,52 +1,43 @@
 <td>
-    @switch (skill.origin) {
-      @case ('hon') {
-        <img class="img img-fluid"
-          src="assets/images/honours_logo.png"
-          alt="honours logo">
-          <p class="hidden">honours</p>
-      }
-      @case ('bach') {
-        <img class="img img-fluid"
-          src="assets/images/Hanze-Logo.png"
-          alt="Hanze logo">
-          <p class="hidden">bachelor hanze</p>
-      }
-      @case ('prof') {
-        <img class="img img-fluid"
-          src="assets/images/prof-logo.png"
-          alt="professional logo">
-          <p class="hidden">professional</p>
-      }
+  @switch (skill.origin) {
+    @case (OriginEnum.Honours) {
+      <img class="img img-fluid"
+           src="assets/images/honours_logo.png"
+           alt="honours logo">
     }
-  </td>
-<td class="bg-{{skill.level}}">
-  <p class="hidden">
-    @switch (skill.level) {
-      @case ('middle1') {
-        beginner
-        intermediate
-      }
-      @case ('middle2') {
-        intermediate
-        advanced
-      }
-      @default {
-        {{ skill.level }}
-      }
+    @case (OriginEnum.Bachelor) {
+      <img class="img img-fluid"
+           src="assets/images/Hanze-Logo.png"
+           alt="Hanze logo">
     }
-  </p>
+    @case (OriginEnum.Professional) {
+      <img class="img img-fluid"
+           src="assets/images/prof-logo.png"
+           alt="professional logo">
+    }
+  }
+</td>
+<td class="bg-{{skill.level}} text-bg-{{skill.level}}">
+  @switch (skill.level) {
+    @case (SkillLevel.BEGINNER_INTERMEDIATE) {
+      beginner / intermediate
+    }
+    @case (SkillLevel.INTERMEDIATE_ADVANCED) {
+      intermediate / advanced
+    }
+    @default {
+      {{ skill.level }}
+    }
+  }
 </td>
 <td>
-  @if (skill.type === 'hard') {
+  @if (skill.type === SkillType.HARD) {
     <p class="text-center">
       H
-      <span class="hidden">hard</span>
     </p>
-  } @else if (skill.type === 'soft') {
+  } @else if (skill.type === SkillType.SOFT) {
     <p class="text-center">
       S
-      <span class="hidden">soft</span>
     </p>
   }
 </td>
