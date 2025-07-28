@@ -2,19 +2,38 @@
 .bg-advanced {
   background-color: blueviolet;
 }
+.text-bg-advanced {
+  color: white;
+}
 
 .bg-middle2 {
   background-color: blue;
+}
+
+.text-bg-middle2 {
+  color: white;
 }
 
 .bg-intermediate {
   background-color: yellowgreen;
 }
 
+.text-bg-intermediate {
+  color: black;
+}
+
 .bg-middle1 {
   background-color: orange;
 }
 
+.text-bg-middle1 {
+  color: black;
+}
+
 .bg-beginner {
   background-color: red;
+}
+
+.text-bg-beginner {
+  color: white;
 }
